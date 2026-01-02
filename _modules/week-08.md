@@ -15,10 +15,10 @@ days:
             - name: CIT 11.3
               url: https://inferentialthinking.com/chapters/11/3/Decisions_and_Uncertainty.html
           keywords: null and alternative hypotheses, test statistic, fair or unfair coin
-    - name: LAB 5
-        type: lab
-        title: Variability and the Normal Distribution
-        url:
+        - name: LAB 5
+          type: lab
+          title: Variability and the Normal Distribution
+          url:
     - date: 2026-2-25
       events: 
         - name: LEC 20
@@ -35,6 +35,10 @@ days:
               url: https://inferentialthinking.com/chapters/11/4/Error_Probabilities.html
           keywords: fair or unfair coin, p-value, midterm exam scores, Alameda County jury, TVD
     - markdown_content: <b>Hypothesis Testing and Total Variation Distance</b>
+        - name: HW 5
+          type: hw
+          title: The Normal Distribution and the Central Limit Theorem
+          url:
     - date: 2026-2-27
       events: 
         - name: LEC 21
@@ -49,7 +53,7 @@ days:
               url: https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html
           keywords: confidence intervals for hypothesis testing, body temperature, smoking/babies
     - markdown_content: <b>TVD, Hypothesis Testing, and Permutation Testing</b>
-    - name: QUIZ 3
-        type: quiz
-        title: Quiz 3 covers Lectures 13-17
+        - name: QUIZ 3
+          type: quiz
+          title: Quiz 3 covers Lectures 13-17
 ---

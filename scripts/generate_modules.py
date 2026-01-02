@@ -156,68 +156,68 @@ days:"""
             lab_num, lab_name = lab.split(". ")
             outstr = outstr.rstrip()
             outstr += f"""
-    - name: LAB {lab_num}
-        type: lab
-        title: {lab_name}
-        url: """
+        - name: LAB {lab_num}
+          type: lab
+          title: {lab_name}
+          url: """
 
         elif "Exam" in lecture:
             outstr += f"""
-    - name: EXAM
-        type: exam
-        title: <b>{lecture}</b>"""
+        - name: EXAM
+          type: exam
+          title: <b>{lecture}</b>"""
         elif lecture:  # we reach this when we have holidays, like July 4
             outstr += f"""
     - markdown_content: <b>{lecture}</b>"""
 
-    if homework:
-        outstr = outstr.rstrip()
-        if "Project" in homework:
-            outstr += f"""
-    - name: PROJ
-        type: proj
-        title: {homework.strip()}
-        url: """
-        else:
-            hw_num, hw_name = homework.split(". ", 1)
-            outstr += f"""
-    - name: HW {hw_num}
-        type: hw
-        title: {hw_name.strip()}
-        url: """
+        if homework:
+            outstr = outstr.rstrip()
+            if "Project" in homework:
+                outstr += f"""
+        - name: PROJ
+          type: proj
+          title: {homework.strip()}
+          url: """
+            else:
+                hw_num, hw_name = homework.split(". ", 1)
+                outstr += f"""
+        - name: HW {hw_num}
+          type: hw
+          title: {hw_name.strip()}
+          url: """
 
-    if discussion:
-        disc_num, disc_name = discussion.split(". ")
-        outstr = outstr.rstrip()
-        outstr += f"""
-    - name: DISC {disc_num}
-        type: disc
-        title: {disc_name}
-        url: """
-        
-    if survey:
-        if '[' in survey and ']' in survey:
-            survey_name, survey_link = survey.split('](')
-            survey_name = survey_name[1:]
-            survey_link = survey_link[:-1]
+        if discussion:
+            disc_num, disc_name = discussion.split(". ")
+            outstr = outstr.rstrip()
             outstr += f"""
-    - name: SUR
-        type: survey
-        title: {survey_name}
-        url: {survey_link}"""
-        else: 
+        - name: DISC {disc_num}
+          type: disc
+          title: {disc_name}
+          url: """
+            
+        if survey:
+            if '[' in survey and ']' in survey:
+                survey_name, survey_link = survey.split('](')
+                survey_name = survey_name[1:]
+                survey_link = survey_link[:-1]
+                outstr += f"""
+        - name: SUR
+          type: survey
+          title: {survey_name}
+          url: {survey_link}"""
+            else: 
+                outstr += f"""
+        - name: SUR
+          type: survey
+          title: {survey}
+          url: """
+            
+        if quiz:
+            quiz_num, quiz_description = quiz.split(". ", 1)
             outstr += f"""
-    - name: SUR
-        type: survey
-        title: {survey}
-        url: """
-        
-    if quiz:
-        quiz_num, quiz_description = quiz.split(". ", 1)
-        outstr += f"""
-    - name: QUIZ {quiz_num}
-        type: quiz
-        title: {quiz_description}"""
+        - name: QUIZ {quiz_num}
+          type: quiz
+          title: {quiz_description}"""
 
     outstr = outstr.rstrip()
     outstr += "\n---"

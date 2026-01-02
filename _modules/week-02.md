@@ -15,10 +15,10 @@ days:
             - name: BPD 9
               url: https://notes.dsc10.com/02-data_sets/accessing.html
           keywords: read_csv, .get, .assign, .sort_values, .iloc, .loc, .set_index, US states
-    - name: LAB 0
-        type: lab
-        title: Expressions and Data Types
-        url:
+        - name: LAB 0
+          type: lab
+          title: Expressions and Data Types
+          url:
     - date: 2026-1-14
       events: 
         - name: LEC 5
@@ -47,7 +47,7 @@ days:
               url: https://inferentialthinking.com/chapters/07/Visualization.html
           keywords: numerical vs. categorical, scatter plot, line plot, bar chart, exoplanets
     - markdown_content: <b>Data Visualization</b>
-    - name: QUIZ 0
-        type: quiz
-        title: Pre-test for research
+        - name: QUIZ 0
+          type: quiz
+          title: Pre-test for research
 ---

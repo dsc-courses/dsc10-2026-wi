@@ -17,10 +17,10 @@ days:
             - name: 13
               url: https://notes.dsc10.com/02-data_sets/merging.html
           keywords: .groupby([col_1, col_2, …]), subgroups, MultiIndex, .merge, number of rows
-    - name: LAB 2
-        type: lab
-        title: Data Visualizations and Functions
-        url:
+        - name: LAB 2
+          type: lab
+          title: Data Visualizations and Functions
+          url:
     - date: 2026-1-28
       events: 
         - name: LEC 10
@@ -35,6 +35,10 @@ days:
               url: https://inferentialthinking.com/chapters/09/Randomness.html
           keywords: in, not, and, or, if, else, elif, for-loops, np.append, accumulator pattern
     - markdown_content: <b>Conditional Statements and Iteration</b>
+        - name: HW 2
+          type: hw
+          title: DataFrames, Data Visualization, and Functions
+          url:
     - date: 2026-1-30
       events: 
         - name: LEC 11

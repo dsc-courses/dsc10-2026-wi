@@ -15,10 +15,10 @@ days:
             - name: CIT 15.5-16.3
               url: https://inferentialthinking.com/chapters/15/5/Visual_Diagnostics.html
           keywords: residuals, residual plots, patterns, datasaurus dozen, prediction intervals
-    - name: LAB 7
-        type: lab
-        title: Regression
-        url:
+        - name: LAB 7
+          type: lab
+          title: Regression
+          url:
     - date: 2026-3-11
       events: 
         - name: LEC 26
@@ -32,6 +32,10 @@ days:
     - markdown_content: <b>Review</b>
     - date: 2026-3-12
       events:
+        - name: PROJ
+          type: proj
+          title: Final Project
+          url:
     - date: 2026-3-13
       events: 
         - name: LEC 27
@@ -43,13 +47,16 @@ days:
           podcast:
           readings:
     - markdown_content: <b>Review, Conclusion</b>
+        - name: QUIZ 5
+          type: quiz
+          title: Post-test for research
     - date: 2026-3-14
       events: 
-    - name: EXAM
-        type: exam
-        title: <b>Final Exam (8-11AM)</b>
-    - name: SUR
-        type: survey
-        title: SETs and End-of-Quarter Survey (due 8AM)
-        url:
+        - name: EXAM
+          type: exam
+          title: <b>Final Exam (8-11AM)</b>
+        - name: SUR
+          type: survey
+          title: SETs and End-of-Quarter Survey (due 8AM)
+          url:
 ---

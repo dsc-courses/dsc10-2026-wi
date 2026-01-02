@@ -18,6 +18,10 @@ days:
               url: https://notes.dsc10.com/01-getting_started/tools.html
           keywords: course logistics, syllabus, Little Women demo, Jupyter notebooks, expressions
     - markdown_content: <b>Introduction</b>
+        - name: DISC 1
+          type: disc
+          title: Getting Started with Jupyter Notebooks
+          url:
     - date: 2026-1-7
       events: 
         - name: LEC 2
@@ -32,6 +36,10 @@ days:
               url: https://notes.dsc10.com/01-getting_started/expressions.html
           keywords: variables, assignment, functions, import, methods, int, float, string
     - markdown_content: <b>Expressions and Data Types</b>
+        - name: SUR
+          type: survey
+          title: Welcome Survey
+          url: https://forms.gle/EAUaG1wHM1aBXJnRA
     - date: 2026-1-9
       events: 
         - name: LEC 3

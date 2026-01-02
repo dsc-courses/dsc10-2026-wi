@@ -7,10 +7,10 @@ days:
     - markdown_content: <b>No Lecture (Presidents Day)</b>
     - date: 2026-2-17
       events:
-    - name: LAB 4
-        type: lab
-        title: Simulation, Sampling, & Bootstrapping
-        url:
+        - name: LAB 4
+          type: lab
+          title: Simulation, Sampling, & Bootstrapping
+          url:
     - date: 2026-2-18
       events: 
         - name: LEC 17
@@ -22,6 +22,10 @@ days:
           podcast:
           readings:
     - markdown_content: <b>The Central Limit Theorem</b>
+        - name: HW 4
+          type: hw
+          title: Simulation, Sampling, & Bootstrapping
+          url:
     - date: 2026-2-20
       events: 
         - name: LEC 18
