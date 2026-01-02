@@ -38,6 +38,10 @@ days:
         type: survey
         title: Welcome Survey
         url: https://forms.gle/EAUaG1wHM1aBXJnRA
+      - name: SYL
+        type: survey
+        title: Syllabus Check
+        url: https://forms.gle/MxsP81vUNp5AmJ9w6
   - date: 2026-1-9
     events:
       - name: LEC 3
