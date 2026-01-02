@@ -142,13 +142,16 @@ days:"""
                 links_list = links.split(", ")
                 num_readings = len(readings_list)
                 for j in range(num_readings):
-                    read_str += f"""            - name: {readings_list[j]}\n"""
-                    read_str += f"""              url: {links_list[j].strip('#')}\n"""
+                    read_str += f"""          - name: {readings_list[j]}\n"""
+                    read_str += f"""            url: {links_list[j].strip('#')}\n"""
                 outstr += f"""{read_str}"""
                 
             if keywords:
                 outstr += f"""        keywords: {keywords}"""
-                
+        if lec_num == 0 and lecture:
+            outstr += f"""
+      - markdown_content: <b>{lecture}</b>"""
+     
         if lab:
             lab_num, lab_name = lab.split(". ")
             outstr = outstr.rstrip()
@@ -163,9 +166,6 @@ days:"""
       - name: EXAM
         type: exam
         title: <b>{lecture}</b>"""
-        elif lecture:  # we reach this when we have holidays, like July 4
-            outstr += f"""
-      - markdown_content: <b>{lecture}</b>"""
 
         if homework:
             outstr = outstr.rstrip()

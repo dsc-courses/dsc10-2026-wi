@@ -32,7 +32,6 @@ days:
           - name: BPD 10-11
             url: https://notes.dsc10.com/02-data_sets/querying.html
         keywords: Booleans, querying, .shape, &, |, .take, .groupby, aggregation, .drop
-      - markdown_content: <b>Querying and Grouping</b>
   - date: 2026-1-16
     events:
       - name: LEC 6
@@ -46,7 +45,6 @@ days:
           - name: CIT 7.0-7.1
             url: https://inferentialthinking.com/chapters/07/Visualization.html
         keywords: numerical vs. categorical, scatter plot, line plot, bar chart, exoplanets
-      - markdown_content: <b>Data Visualization</b>
       - name: PRE
         type: survey
         title: Pretest

@@ -155,14 +155,6 @@
         false %}, {% endif %} {% endfor %} {%- endif -%}
         <!-- {{ event.reading_name | markdownify | remove: '<p>' | remove: '</p>' }} -->
       </p>
-      {%- if event.keywords -%}
-      <small>
-        <i>
-          <span style="display: inline-block; padding-left: 80px">
-            <b>Keywords:</b> {{ event.keywords }}
-          </span>
-        </i>
-      </small>
       {%- endif -%} {%- if event.lecturer -%}
       <small>
         <i>
@@ -171,7 +163,14 @@
           </span>
         </i>
       </small>
-      {%- endif -%}
+      {%- endif -%} {%- if event.keywords -%}
+      <small>
+        <i>
+          <span style="display: inline-block; padding-left: 80px">
+            <b>Keywords:</b> {{ event.keywords }}
+          </span>
+        </i>
+      </small>
       <!-- {{ event | first | markdownify }} {{ event | last | markdownify }} -->
     </dd>
     {% endif %} {% endfor %} {% endfor %}

@@ -12,8 +12,8 @@ days:
         html:
         podcast:
         readings:
-            - name: CIT 9.3-9.4
-              url: https://inferentialthinking.com/chapters/09/3/Simulation.html
+          - name: CIT 9.3-9.4
+            url: https://inferentialthinking.com/chapters/09/3/Simulation.html
         keywords: np.random.choice, replacement, np.count_nonzero, coin flipping, Monty Hall
       - name: LAB 3
         type: lab
@@ -29,10 +29,9 @@ days:
         html:
         podcast:
         readings:
-            - name: CIT 10.0-10.4
-              url: https://inferentialthinking.com/chapters/10/Sampling_and_Empirical_Distributions.html
+          - name: CIT 10.0-10.4
+            url: https://inferentialthinking.com/chapters/10/Sampling_and_Empirical_Distributions.html
         keywords: probability vs. empirical distribution, SRS, .sample, parameter, statistic
-      - markdown_content: <b>Distributions and Sampling</b>
       - name: HW 3
         type: hw
         title: DataFrames, Control Flow, and Probability
@@ -51,10 +50,9 @@ days:
         html:
         podcast:
         readings:
-            - name: CIT 13.0-13.2
-              url: https://inferentialthinking.com/chapters/13/Estimation.html
+          - name: CIT 13.0-13.2
+            url: https://inferentialthinking.com/chapters/13/Estimation.html
         keywords: inference, bootstrapping, resample, np.percentile, confidence interval
-      - markdown_content: <b>Bootstrapping and Confidence Intervals</b>
       - name: QUIZ 2
         type: quiz
         title: Quiz 2 covers Lectures 7-11

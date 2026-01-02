@@ -29,7 +29,6 @@ days:
         html:
         podcast:
         readings:
-      - markdown_content: <b>Review</b>
   - date: 2026-3-12
     events:
       - name: PROJ
@@ -46,12 +45,12 @@ days:
         html:
         podcast:
         readings:
-      - markdown_content: <b>Review, Conclusion</b>
       - name: POST
         type: quiz
         title: Post-test
   - date: 2026-3-14
     events:
+      - markdown_content: <b>Final Exam (8-11AM)</b>
       - name: EXAM
         type: exam
         title: <b>Final Exam (8-11AM)</b>
