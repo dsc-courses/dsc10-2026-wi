@@ -1,44 +1,55 @@
 ---
-title: Week 5 – Midterm Exam
+title: Week 5 – Simulations and Sampling
 weekNumber: 5
 days:
-  - date: 2025-10-27
-    events:
-      - name: REV
-        type: lecture
-        title: Midterm Review
-        html: resources/lectures/Midterm___DSC10__Spring_25.pdf
-        A: resources/lectures/A_midterm.pdf
-        B: resources/lectures/B_midterm.pdf
-        C: resources/lectures/C_midterm.pdf
-      - name: DISC 5
-        type: disc
-        title: Probability and Simulation
-        url: https://practice.dsc10.com/disc05/index.html
-  - date: 2025-10-29
-    events:
-      - name: EXAM
-        type: exam
-        title: <b>Midterm Exam covers Lectures 1-12</b>
-      - name: POD
-        type: quiz
-        title: Pod Meeting
-  - date: 2025-10-31
-    events:
-      - name: LEC 14
-        type: lecture
-        title: Bootstrapping and Confidence Intervals
-        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2025-fa&subPath=resources/lectures/lec14/lec14.ipynb
-        html: resources/lectures/lec14/lec14.html
-        podcast:
-        readings:
-          - name: CIT 13.0-13.2
-            url: https://inferentialthinking.com/chapters/13/Estimation.html
-        keywords: inference, bootstrapping, resample, np.percentile, confidence interval
-  - date: 2025-11-1
-    events:
-      - name: PROJ
-        type: proj
-        title: Midterm Project
-        url: https://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2025-fa&subPath=projects/midterm_project/midterm_project.ipynb
+    - date: 2026-2-2
+      events: 
+        - name: LEC 12
+          type: lecture
+          title: Simulation
+          lecturer: Sam
+          url:
+          html:
+          podcast:
+          readings:
+            - name: CIT 9.3-9.4
+              url: https://inferentialthinking.com/chapters/09/3/Simulation.html
+          keywords: np.random.choice, replacement, np.count_nonzero, coin flipping, Monty Hall
+    - date: 2026-2-4
+      events: 
+        - name: LEC 13
+          type: lecture
+          title: Distributions and Sampling
+          lecturer: Sam
+          url:
+          html:
+          podcast:
+          readings:
+            - name: CIT 10.0-10.4
+              url: https://inferentialthinking.com/chapters/10/Sampling_and_Empirical_Distributions.html
+          keywords: probability vs. empirical distribution, SRS, .sample, parameter, statistic
+        - name: HW 3
+          type: hw
+          title: DataFrames, Control Flow, and Probability
+          url: 
+        - name: SUR
+          type: survey
+          title: Mid-Quarter Survey
+          url:
+    - date: 2026-2-6
+      events: 
+        - name: LEC 14
+          type: lecture
+          title: Bootstrapping and Confidence Intervals
+          lecturer: Peter
+          url:
+          html:
+          podcast:
+          readings:
+            - name: CIT 13.0-13.2
+              url: https://inferentialthinking.com/chapters/13/Estimation.html
+          keywords: inference, bootstrapping, resample, np.percentile, confidence interval
+        - name: QUIZ 2
+          type: quiz
+          title: Quiz 2 covers Lectures 7-11
 ---

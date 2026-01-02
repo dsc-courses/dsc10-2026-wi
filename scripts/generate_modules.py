@@ -9,10 +9,10 @@ import sys
 import numpy as np
 
 # Edit these variables before running script
-CSV_PATH = "/Users/katefeng/Desktop/dsc10-2025-fa/scripts/Lecture Schedule – DSC 10, Fall 2025 - fa25.csv"  #CHANGE CSV PATH for your computer
+CSV_PATH = "Lecture Schedule – DSC 10, Winter 2026 - wi26.csv"  #CHANGE CSV PATH for your computer
 DATE_FORMAT = "DATE MONTH/DAY"
-YEAR = 2025
-START_FROM_WEEK = 0 #only future weeks!
+YEAR = 2026
+START_FROM_WEEK = 1 #only future weeks!
 
 
 def fill_missing_vals(df):
@@ -20,6 +20,7 @@ def fill_missing_vals(df):
     df["Title"] = df["Title"].fillna(method="ffill").astype(str)
     df["LectureNum"] = df["LectureNum"].fillna(0).astype(int)
     df["Lecture"] = df["Lecture"].fillna("").astype(str)
+    df["Lecturer"] = df["Lecturer"].fillna("").astype(str)  # NEW
     df["Lab"] = df["Lab"].fillna("").astype(str)
     df["Homework"] = df["Homework"].fillna("").astype(str)
     df["Readings"] = df["Readings"].fillna("").astype(str)
@@ -28,7 +29,6 @@ def fill_missing_vals(df):
     df["Discussion"] = df["Discussion"].fillna("").astype(str)
     df["Quiz"] = df["Quiz"].fillna("").astype(str)
     df["Survey"] = df["Survey"].fillna("").astype(str)
-#    df["Practice"] = df["Practice"].fillna("").astype(str)
     return df
 
 
@@ -93,7 +93,7 @@ def has_content(row):
     return row.loc[["Lecture", "Homework", "Lab", "Discussion", "Quiz"]].any() != ''
 
 # for a single week
-def write_week(i, dest="/Users/katefeng/Desktop/dsc10-2025-fa/_modules", write=True):  #CHANGE dest to path where "_modules" is on your computer
+def write_week(i, dest="../_modules", write=True):  #CHANGE dest to path where "_modules" is on your computer
     week = df.query("Week == @i")
     week = week[week.apply(has_content, axis=1)] 
 
@@ -106,15 +106,15 @@ days:"""
         date = day.Date
         lec_num = day.LectureNum
         lecture = day.Lecture
+        lecturer = day.Lecturer   # NEW
         homework = day.Homework
         lab = day.Lab
         readings = day.Readings
         links = day.Links
-        keywords=day.Keywords
+        keywords = day.Keywords
         discussion = day.Discussion
         quiz = day.Quiz
         survey = day.Survey
-        #practice = day.Practice
 
         date_formatted = date_conv(date)
 
@@ -129,6 +129,7 @@ days:"""
         - name: LEC {lec_num}
           type: lecture
           title: {lecture}
+          lecturer: {lecturer}
           url:
           html:
           podcast:
@@ -209,10 +210,6 @@ days:"""
           title: {survey}
           url: """
             
-        #if practice:
-        #    outstr += f"""
-        #  "**PRAC**{{: .label .label-practice }} [Extra Practice Session](http://practice.dsc10.com)":"""
-            
         if quiz:
             quiz_num, quiz_description = quiz.split(". ", 1)
             outstr += f"""
@@ -224,11 +221,7 @@ days:"""
     outstr += "\n---"
 
     if write:
-        # if not dest in os.listdir():
-        #     os.system(f'mkdir {dest}')
-
-        # print(dest + '/week-' + round_format(i) + '.md')
-
+        os.makedirs(dest, exist_ok=True)
         f = open(dest + "/week-" + round_format(i) + ".md", "w")
         f.write(outstr)
         f.close()
@@ -238,7 +231,3 @@ days:"""
 
 for i in range(START_FROM_WEEK, 11):
     write_week(i)
-
-
-
-
