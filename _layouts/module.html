@@ -16,11 +16,8 @@
         <strong class="label label-{{ event.type }}"> {{ event.name }} </strong>
         {%- if event.type != "lecture" and event.url -%}
         <a href="{{ event.url }}">{{ event.title }}</a>
-        {%- else -%} {{ event.title }} {%- endif -%} {%- if event.lecturer -%}
-        <br />
-        <small class="text-muted"> Lecturer: {{ event.lecturer }} </small>
-        {%- endif -%} {%- if event.type == "lecture" or event.type == "review"
-        -%} {%- if event.blank -%}
+        {%- else -%} {{ event.title }} {%- endif -%} {%- if event.type ==
+        "lecture" or event.type == "review" -%} {%- if event.blank -%}
         <br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <small>
@@ -163,6 +160,14 @@
         <i>
           <span style="display: inline-block; padding-left: 80px">
             <b>Keywords:</b> {{ event.keywords }}
+          </span>
+        </i>
+      </small>
+      {%- endif -%} {%- if event.lecturer -%}
+      <small>
+        <i>
+          <span style="display: inline-block; padding-left: 80px">
+            <b>Lecturer:</b> {{ event.lecturer }}
           </span>
         </i>
       </small>
