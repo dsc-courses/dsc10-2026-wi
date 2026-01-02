@@ -12,6 +12,7 @@ days:
         html:
         podcast:
         readings:
+      - markdown_content: <b>Confidence Intervals, Center, and Spread</b>
   - date: 2026-2-11
     events:      
       - name: EXAM
@@ -29,7 +30,8 @@ days:
         readings:
             - name: CIT 14.2-14.3
               url: https://inferentialthinking.com/chapters/14/2/Variability.html
-        keywords: Chebyshev, standard units, normal distribution, CDF, inflection points      
+        keywords: Chebyshev, standard units, normal distribution, CDF, inflection points
+      - markdown_content: <b>Standardization and the Normal Distribution</b>      
       - name: PROJ
         type: proj
         title: Midterm Project

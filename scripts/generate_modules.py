@@ -163,9 +163,9 @@ days:"""
       - name: EXAM
         type: exam
         title: <b>{lecture}</b>"""
-#         elif lecture:  # we reach this when we have holidays, like July 4
-#             outstr += f"""
-#   - markdown_content: <b>{lecture}</b>"""
+        elif lecture:  # we reach this when we have holidays, like July 4
+            outstr += f"""
+      - markdown_content: <b>{lecture}</b>"""
 
         if homework:
             outstr = outstr.rstrip()

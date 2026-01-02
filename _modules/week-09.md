@@ -32,6 +32,7 @@ days:
             - name: CIT 15.0-15.2
               url: https://inferentialthinking.com/chapters/15/Prediction.html
         keywords: association, correlation coefficient (r), predicting heights, regression line (su)
+      - markdown_content: <b>Correlation</b>
   - date: 2026-3-5
     events:
       - name: HW 6
@@ -51,6 +52,7 @@ days:
             - name: CIT 15.2-15.4
               url: https://inferentialthinking.com/chapters/15/2/Regression_Line.html
         keywords: regression line in original units, outliers, errors, RMSE, best fit, least squares
+      - markdown_content: <b>Regression and Least Squares</b>
       - name: QUIZ 4
         type: quiz
         title: Quiz 4 covers Lectures 18-21

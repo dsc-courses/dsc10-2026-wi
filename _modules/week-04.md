@@ -34,6 +34,7 @@ days:
             - name: CIT 9.0-9.2
               url: https://inferentialthinking.com/chapters/09/Randomness.html
         keywords: in, not, and, or, if, else, elif, for-loops, np.append, accumulator pattern
+      - markdown_content: <b>Conditional Statements and Iteration</b>
       - name: HW 2
         type: hw
         title: DataFrames, Data Visualization, and Functions
@@ -51,4 +52,5 @@ days:
             - name: CIT 9.5
               url: https://inferentialthinking.com/chapters/09/5/Finding_Probabilities.html
         keywords: event, conditional prob., multiplication and addition rules, independence
+      - markdown_content: <b>Probability</b>
 ---

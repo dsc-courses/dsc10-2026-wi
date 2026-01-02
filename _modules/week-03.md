@@ -4,6 +4,7 @@ weekNumber: 3
 days:
   - date: 2026-1-19
     events:
+      - markdown_content: <b>No Lecture (Martin Luther King Jr. Day)</b>
   - date: 2026-1-20
     events:
       - name: LAB 1
@@ -23,6 +24,7 @@ days:
             - name: CIT 7.2-7.3
               url: https://inferentialthinking.com/chapters/07/2/Visualizing_Numerical_Distributions.html
         keywords: distributions, density histograms, binning, total area, overlaid plots
+      - markdown_content: <b>Distributions and Histograms</b>
       - name: HW 1
         type: hw
         title: Basic Python, Arrays, and DataFrames
@@ -42,6 +44,7 @@ days:
             - name: 12
               url: https://notes.dsc10.com/02-data_sets/apply.html
         keywords: functions, arguments, print vs. return, .apply, .reset_index
+      - markdown_content: <b>Functions and Applying</b>
       - name: QUIZ 1
         type: quiz
         title: Quiz 1 covers Lectures 1-6
