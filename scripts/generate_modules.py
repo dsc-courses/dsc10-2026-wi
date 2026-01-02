@@ -204,7 +204,7 @@ days:"""
         url: {survey_link}"""
             else: 
                 outstr += f"""
-        - name: SUR
+      - name: SUR
         type: survey
         title: {survey}
         url: """

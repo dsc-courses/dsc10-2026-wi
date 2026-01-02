@@ -12,8 +12,8 @@ days:
         html:
         podcast:
         readings:
-            - name: BPD 9
-              url: https://notes.dsc10.com/02-data_sets/accessing.html
+          - name: BPD 9
+            url: https://notes.dsc10.com/02-data_sets/accessing.html
         keywords: read_csv, .get, .assign, .sort_values, .iloc, .loc, .set_index, US states
       - name: LAB 0
         type: lab
@@ -29,8 +29,8 @@ days:
         html:
         podcast:
         readings:
-            - name: BPD 10-11
-              url: https://notes.dsc10.com/02-data_sets/querying.html
+          - name: BPD 10-11
+            url: https://notes.dsc10.com/02-data_sets/querying.html
         keywords: Booleans, querying, .shape, &, |, .take, .groupby, aggregation, .drop
   - date: 2026-1-16
     events:
@@ -42,10 +42,10 @@ days:
         html:
         podcast:
         readings:
-            - name: CIT 7.0-7.1
-              url: https://inferentialthinking.com/chapters/07/Visualization.html
+          - name: CIT 7.0-7.1
+            url: https://inferentialthinking.com/chapters/07/Visualization.html
         keywords: numerical vs. categorical, scatter plot, line plot, bar chart, exoplanets
-      - name: QUIZ 0
-        type: quiz
-        title: Pre-test for research
+      - name: PRE
+        type: survey
+        title: Pretest
 ---
