@@ -48,4 +48,5 @@ days:
       - name: PRE
         type: survey
         title: Pretest
+        url: https://practice.dsc10.com/pretest/index.html
 ---
