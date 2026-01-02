@@ -155,7 +155,7 @@
         false %}, {% endif %} {% endfor %} {%- endif -%}
         <!-- {{ event.reading_name | markdownify | remove: '<p>' | remove: '</p>' }} -->
       </p>
-      {%- endif -%} {%- if event.lecturer -%}
+      {%- if event.lecturer -%}
       <small>
         <i>
           <span style="display: inline-block; padding-left: 80px">
@@ -171,7 +171,7 @@
           </span>
         </i>
       </small>
-      <!-- {{ event | first | markdownify }} {{ event | last | markdownify }} -->
+      {%- endif -%}
     </dd>
     {% endif %} {% endfor %} {% endfor %}
   </dl>
