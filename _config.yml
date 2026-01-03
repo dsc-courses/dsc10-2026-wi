@@ -21,6 +21,20 @@ url: 'https://dsc10.com' # the base hostname & protocol for your site, e.g. http
 author: DSC 10 Instructors and Course Staff
 exclude: ['Gemfile', 'Gemfile.lock', 'LICENSE', 'README.md']
 
+# reference these in the site using site.urls, e.g.:
+#
+# Check out our [Campuswire discussion forum]({{ site.urls.campuswire }}) for
+# questions and announcements.
+urls:
+  campuswire: &campuswire 'https://campuswire.com/p/G54A20196'
+  gradescope: &gradescope 'https://www.gradescope.com/courses/1189614'
+  reference: &reference 'https://dsc-courses.github.io/bpd-reference/docs/documentation/intro'
+  practice: &practice 'https://practice.dsc10.com/'
+  cc: &cc 'http://cc.dsc10.com/'
+  podcasts: &podcasts 'https://podcast.ucsd.edu/'
+  syllabus_check: 'https://docs.google.com/forms/d/e/1FAIpQLSfcH_YKl2gY9lasAUSSkKDMiNrB82m4NZIEYdomYEoZoZl5Hw/viewform?usp=sharing&ouid=104866872711045167069'
+  welcome_survey: 'https://docs.google.com/forms/d/e/1FAIpQLSc-Shhz9yTDWDri4MBfBlOsOyeZt_4VGxRBgkbKfVK75SclSQ/viewform?usp=sharing&ouid=104866872711045167069'
+
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
 color_scheme: bluecsd
@@ -29,17 +43,17 @@ heading_anchors: true
 permalink: pretty
 aux_links:
   🙋 Campuswire:
-    - ''
+    - *campuswire
   💯 Gradescope:
-    - ''
+    - *gradescope
   📌 Reference:
-    - 'https://dsc-courses.github.io/bpd-reference/docs/documentation/intro'
+    - *reference
   💪 Practice:
-    - 'https://practice.dsc10.com/'
+    - *practice
   ✅ CC:
-    - 'http://cc.dsc10.com/'
+    - *cc
   🎥 Podcasts:
-    - 'https://podcast.ucsd.edu/'
+    - *podcasts
 footer_content:
 
 # Collections for website data

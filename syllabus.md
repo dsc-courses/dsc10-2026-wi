@@ -6,17 +6,28 @@ description: >-
 nav_order: 2
 ---
 
+<!-- prettier-ignore-start -->
+
 # 📖 Syllabus
 {:.no_toc}
 
-
 ## Table of contents
-{: .no_toc .text-delta }
+{:.no_toc}
 
 1. TOC
 {:toc}
 
+<!-- prettier-ignore-end -->
+
 ---
+
+[campuswire]: {{ site.urls.campuswire }}
+[gradescope]: {{ site.urls.gradescope }}
+[practice]: {{ site.urls.practice }}
+[cc]: {{ site.urls.cc }}
+[podcasts]: {{ site.urls.podcasts }}
+[syllabus_check]: {{ site.urls.syllabus_check }}
+[welcome_survey]: {{ site.urls.welcome_survey }}
 
 ## 🧐 About
 
@@ -25,10 +36,11 @@ conclusions about data. We will learn how to explore data and make predictions
 using data. Programming is a useful tool to help us analyze large datasets,
 and so we will learn how to program in Python towards this goal. We will learn
 some of the core techniques of data science, and we will practice applying them
-to real datasets from a variety of different disciplines.  
+to real datasets from a variety of different disciplines.
 
 Prerequisites: None. This course is an introduction to data science with no
-prior background assumed beyond high school algebra. Make sure you are well-prepared by taking [this pretest](https://practice.dsc10.com/pretest/).
+prior background assumed beyond high school algebra. Make sure you are
+well-prepared by taking [this pretest](https://practice.dsc10.com/pretest/).
 
 If you are not planning on
 entering the DSC major/minor and have already taken a programming class and a
@@ -46,31 +58,37 @@ The contents of this course come from UC Berkeley's Data 8 course, created by An
 
 ### Lecture
 
-There are four lecture sections:
-- Section A: MWF 9-9:50AM in [PCYNH 106](https://map.concept3d.com/?id=1005#!m/246320).
-- Section B: MWF 10-10:50AM in [PCYNH 106](https://map.concept3d.com/?id=1005#!m/246320).
-- Section C: MWF 11-11:50AM in [PCYNH 106](https://map.concept3d.com/?id=1005#!m/246320).
-- Section D: MWF 9-9:50AM in [PODEM 1A19](https://map.concept3d.com/?id=1005#!m/761769).
+There are two lecture sections:
 
-Lecture is meant to introduce you to the main concepts of the course. In-person attendance is never required, but is strongly encouraged when possible, as you’ll get the opportunity to ask questions, answer ungraded concept-check polls, and participate in discussion. 
+- Section B: MWF 9-9:50AM in [MANDE B-202](https://map.concept3d.com/?id=1005#!m/232276).
+- Section A: MWF 11-11:50AM in [PODEM 1A18](https://map.concept3d.com/?id=1005#!m/761769).
+
+Lecture is meant to introduce you to the main concepts of the course. In-person attendance is never required, but is strongly encouraged when possible, as you’ll get the opportunity to ask questions, answer ungraded concept-check polls, and participate in discussion.
 
 You can attend any lecture section, but if space fills up, priority will be given to students officially enrolled in that section. For the Midterm Exam, you must attend the lecture section in which you are officially enrolled.
 
-**Lectures will be podcasted** (UCSD's term for "recorded"). Podcast recordings will be available online at [podcast.ucsd.edu](https://podcast.ucsd.edu) within a few hours. 
+**Lectures will be podcasted** (UCSD's term for "recorded"). Podcast recordings will be available online at [podcast.ucsd.edu](https://podcast.ucsd.edu) within a few hours.
 
+<!--
+NO PODS IN WI26
 
 ### Pods
 
-Outside of lecture, this class has two additional hours designated for this class in the schedule of classes. One of these hours, on Monday afternoon, appears as DI in the schedule of classes, and will be used for discussion sections. The other hour, on Wednesday afternoon, appears as LA in the schedule of classes, and will be used for both quizzes and small group (pod) meetings. 
+Outside of lecture, this class has two additional hours designated for this class in the schedule of classes. One of these hours, on Monday afternoon, appears as DI in the schedule of classes, and will be used for discussion sections. The other hour, on Wednesday afternoon, appears as LA in the schedule of classes, and will be used for both quizzes and small group (pod) meetings.
 
-Pods will be groups of 20 to 30 students, mentored by a couse tutor. Pods will consist of students who will all attend the same lecture, discussion, quiz times, and pod meetings. Pods are meant to give you the experience of being in a "microclass" within a much larger course. 
+Pods will be groups of 20 to 30 students, mentored by a couse tutor. Pods will consist of students who will all attend the same lecture, discussion, quiz times, and pod meetings. Pods are meant to give you the experience of being in a "microclass" within a much larger course.
 
-To help us assign you to a pod that works for your schedule, please let us know your availability and preferences on the [Welcome Survey](https://docs.google.com/forms/d/e/1FAIpQLSfLvqLbgbPuOj6bb40k0e8JRs0epBA-BMA8I0HasTMjiz8elQ/viewform?usp=dialog). You will be assigned to a pod based on your preferences and the availability of seats.  We will confirm your assigned pod and meeting times by email before Monday of Week 1.
+To help us assign you to a pod that works for your schedule, please let us know your availability and preferences on the [Welcome Survey](https://docs.google.com/forms/d/e/1FAIpQLSfLvqLbgbPuOj6bb40k0e8JRs0epBA-BMA8I0HasTMjiz8elQ/viewform?usp=dialog). You will be assigned to a pod based on your preferences and the availability of seats. We will confirm your assigned pod and meeting times by email before Monday of Week 1. -->
 
+### Discussion
 
-### Discussion 
+**New**{: .label .label-green } We will not be using the schedules discussion
+section timeslot this quarter with **one exception**: on the first day of class
+(Mon Jan 5, 2026), we will hold discussion sections in their scheduled timeslots
+in order to help you get set up with the technology you'll be using all quarter.
 
-There are four discussion sections:
+<!-- There are two discussion sections:
+
 - Mondays 1-1:50PM in [FAH 1450](https://map.concept3d.com/?id=1005#!m/610083).
 - Mondays 3-3:50PM in [PCYNH 106](https://map.concept3d.com/?id=1005#!m/246320).
 - Mondays 4-4:50PM in [PCYNH 106](https://map.concept3d.com/?id=1005#!m/246320).
@@ -78,26 +96,34 @@ There are four discussion sections:
 
 You will be assigned to a specific discussion section based on your availability and preferences as indicated on the [Welcome Survey](https://docs.google.com/forms/d/e/1FAIpQLSfLvqLbgbPuOj6bb40k0e8JRs0epBA-BMA8I0HasTMjiz8elQ/viewform?usp=dialog). You must attend your assigned discussion section to get credit for attendance.
 
-The first discussion includes some useful instruction and tips for using Jupyter notebooks and Datahub, the programming tools we'll be using in this course. It should be helpful to get you set up and comfortable with the technology you'll be using all quarter. 
+The first discussion includes some useful instruction and tips for using Jupyter notebooks and Datahub, the programming tools we'll be using in this course. It should be helpful to get you set up and comfortable with the technology you'll be using all quarter.
 
 Subsequent discussion sections will be focused on quiz and exam preparation. Students will work through problems from past DSC 10 quizzes and exams and be able to get help from course staff. Attending discussion and working through practice problems gives you direct experience with the types of questions you will see on quizzes and exams, which are typically the hardest parts of the course.
 
-**Discussion sections will not be podcasted.** The purpose of discussion is to give you hands-on problem-solving experience, so you really need to attend and participate to reap the benefits. 
+**Discussion sections will not be podcasted.** The purpose of discussion is to give you hands-on problem-solving experience, so you really need to attend and participate to reap the benefits. -->
 
 <!-- {: .warning }
 **In the Schedule of Classes, this course is listed as having both a discussion section (DI) and a lab section (LA), but we will only have one weekly meeting outside of lecture, which we’ll refer to as a discussion section, scheduled at the time listed above. You should ignore what you see as DI or LA on WebReg and just use the schedule above instead.** -->
 
-### Quizzes and Pod Meetings
+### Quizzes
 
-On five Wednesdays throughout the quarter, we will have short 20-minute quizzes. On four other Wednesdays throughout the quarter, you will meet with your pod and mentor. Pod meetings will be purely social and are designed to help you make connections with classmates and your mentor, not to work on any specific course-related material. 
+On four Fridays throughout the quarter, we will have short 20-minute quizzes. Quizzes will be held in-person during the scheduled LAB section timeslots:
+
+- Section A: Friday 1-1:50PM in CSB 001
+- Section B: Friday 2-2:50PM in MANDE B-202
+
+You must attend at your assigned time to get credit. See the course calendar for the schedule of quizzes.
+
+<!-- On four other Wednesdays throughout the quarter, you will meet with your pod and mentor. Pod meetings will be purely social and are designed to help you make connections with classmates and your mentor, not to work on any specific course-related material.
 
 Quizzes and pod meetings will be held on Wednesday afternoons at one of the following times.
+
 - Wednesdays 2-2:50PM in [FAH 1101](https://map.concept3d.com/?id=1005#!m/610083).
 - Wednesdays 3-3:50PM in [PCYNH 106](https://map.concept3d.com/?id=1005#!m/246320).
 - Wednesdays 4-4:50PM in [PCYNH 106](https://map.concept3d.com/?id=1005#!m/246320).
 - Wednesdays 5-5:50PM in [PCYNH 106](https://map.concept3d.com/?id=1005#!m/246320).
 
-You will be assigned to a specific time for quizzes and pod meetings based on your availability and preferences as indicated on the [Welcome Survey](https://docs.google.com/forms/d/e/1FAIpQLSfLvqLbgbPuOj6bb40k0e8JRs0epBA-BMA8I0HasTMjiz8elQ/viewform?usp=dialog). You must attend at your assigned time to get credit for attendance.
+You will be assigned to a specific time for quizzes and pod meetings based on your availability and preferences as indicated on the [Welcome Survey](https://docs.google.com/forms/d/e/1FAIpQLSfLvqLbgbPuOj6bb40k0e8JRs0epBA-BMA8I0HasTMjiz8elQ/viewform?usp=dialog). You must attend at your assigned time to get credit for attendance. -->
 
 ### Office Hours
 
@@ -136,15 +162,16 @@ Your primary motivation when interacting with course staff should be
 
 ## 🚦 Getting Started
 
-Make sure to complete the four items listed below by **Saturday, September 27th at 11:59PM**. If you join the course late, these items are due at 11:59PM the day after you join the class.
+Make sure to complete the four items listed below by **Wednesday, Jan 7th at
+11:59PM**. If you join the course late, these items are due at 11:59PM the day
+after you join the class.
 
-1. Join [Campuswire](https://campuswire.com/c/GF283E889) (join code: 8258).
-2. Check if you can access [Gradescope](https://www.gradescope.com/courses/1141203). If not, send a private message to the instructional staff on Campuswire with your name, PID, and email address, then we can add you so you can submit assignments.
-3. Read the syllabus and course website and complete the [Syllabus Check](https://forms.gle/A2Q3Qrg72QQpRveP8).
-4. Fill out the [Welcome Survey](https://docs.google.com/forms/d/e/1FAIpQLSfLvqLbgbPuOj6bb40k0e8JRs0epBA-BMA8I0HasTMjiz8elQ/viewform?usp=dialog).
+1. Join [Campuswire][campuswire] (join code: 6304).
+2. Check if you can access [Gradescope][gradescope]. If not, send a private message to the instructional staff on Campuswire with your name, PID, and email address, then we can add you so you can submit assignments.
+3. Read the syllabus and course website and complete the [Syllabus Check][syllabus_check].
+4. Fill out the [Welcome Survey][welcome_survey].
 
-After that, start working on the [Pretest](https://practice.dsc10.com/pretest/). You will need to submit your written solutions to [Gradescope](https://www.gradescope.com/courses/1009023) alongside your first assignment, Lab 0.
-
+After that, start working on the [Pretest](https://practice.dsc10.com/pretest/). You will need to submit your written solutions to [Gradescope][gradescope] alongside your first assignment, Lab 0.
 
 ### Technology
 
@@ -157,11 +184,14 @@ additional platforms that you'll need to access:
 
 - **Campuswire:** We'll be using Campuswire as our course message and
   discussion board. More details are in the [Communication](#-communication)
-  section below. If you didn't already get an invitation, [join here](https://campuswire.com/c/GF283E889) (join code: 8258).
+  section below. If you didn't already get an invitation, [join here][campuswire] (join code: 6304).
 
 - **Gradescope:** You'll submit all assignments and exams to
-  [Gradescope](https://www.gradescope.com/courses/1141203). This is where all of
-  your grades will live as well. You will be automatically added to Gradescope about 24 hours after enrolling in the course. If you need to submit assignments before then, please send a private message to the instructional staff on Campuswire with your name, PID, and email address.
+  [Gradescope][gradescope]. This is where all of your grades will live as well.
+  You will be automatically added to Gradescope about 24 hours after enrolling
+  in the course. If you need to submit assignments before then, please send a
+  private message to the instructional staff on Campuswire with your name, PID,
+  and email address.
 
 - **DataHub:** Assignments in this course will involve programming in Python.
   DataHub ([datahub.ucsd.edu](https://datahub.ucsd.edu)) is UCSD's online data
@@ -176,7 +206,7 @@ them, too (though they're all linked at the top of this website).
 
 ### Syllabus Check
 
-To demonstrate that you have read and understood the policies on the syllabus and course website, you'll be asked to complete a [Syllabus Check](https://forms.gle/A2Q3Qrg72QQpRveP8), which is a short quiz about the information contained on the syllabus and course website. 
+To demonstrate that you have read and understood the policies on the syllabus and course website, you'll be asked to complete a [Syllabus Check][syllabus_check], which is a short quiz about the information contained on the syllabus and course website.
 
 You must complete the Syllabus Check before the deadline with a score of **80% or higher to earn credit**. You can only take this quiz once, so make sure to read the course website thoroughly before beginning.
 
@@ -184,11 +214,11 @@ If you have questions about any course-related policies in the future, always re
 
 ### Welcome Survey
 
-Please fill out this short [Welcome Survey](https://docs.google.com/forms/d/e/1FAIpQLSfLvqLbgbPuOj6bb40k0e8JRs0epBA-BMA8I0HasTMjiz8elQ/viewform?usp=dialog) at the start of the quarter. This is required of all students.
+Please fill out this short [Welcome Survey][welcome_survey] at the start of the quarter. This is required of all students.
 
 ### Pretest
 
-DSC 10’s only prerequisite is high school algebra. In order to gauge your preparedness for the type of math you’ll see in this class, you should work through the practice problems on this [Pretest](https://practice.dsc10.com/pretest/). This Pretest will help you identify any gaps in your background knowledge and it will teach you some useful test-taking skills. 
+DSC 10’s only prerequisite is high school algebra. In order to gauge your preparedness for the type of math you’ll see in this class, you should work through the practice problems on this [Pretest](https://practice.dsc10.com/pretest/). This Pretest will help you identify any gaps in your background knowledge and it will teach you some useful test-taking skills.
 
 The Pretest will be graded based on honest effort, not on the correctness of your responses. You will earn some participation credit for working on the Pretest and submitting your written solutions to Gradescope by the deadline.
 
@@ -198,7 +228,7 @@ We'll release solutions to the Pretest after the due date, and you are highly en
 
 ## 💬 Communication
 
-This quarter, we’ll be using [Campuswire](https://campuswire.com/p/GF283E889) (join code: 8258) as our course message board.
+This quarter, we’ll be using [Campuswire][campuswire] (join code: 6304) as our course message board.
 
 If you have a question about anything to do with the course — if you’re stuck
 on a problem, want clarification on the logistics, or just have a general
@@ -244,7 +274,7 @@ assignment such that all the tests pass, you'll get a perfect score!
 To submit a lab, follow the instructions in the assignment to upload your
 notebook to Gradescope, which will run automated tests and assign your score.
 You should verify that all of your test cases pass on Gradescope **before the
-deadline**. Lab assignments will usually be due on Thursdays at 11:59PM, 
+deadline**. Lab assignments will usually be due on Thursdays at 11:59PM,
 though you should refer to the [homepage of this website](..) for the most up-to-date schedule. We will
 release lab assignments roughly a week before they're due. **Your lowest lab score
 is dropped from your grade calculation at the end of the quarter.**
@@ -279,7 +309,7 @@ hidden correctness tests that determine your score.
 
 To submit a homework, follow the instructions in the assignment to upload your
 notebook to Gradescope. Homeworks will usually be due on Saturdays at
-11:59PM, though you should refer to the [homepage of this website](..) for the most up-to-date schedule. 
+11:59PM, though you should refer to the [homepage of this website](..) for the most up-to-date schedule.
 We will release homework assignments roughly a week before they're
 due. **Your lowest homework score
 is dropped from your grade calculation at the end of the quarter.**
@@ -315,20 +345,20 @@ the deadline, and only the most recent submission will be graded, so it's a
 good habit to **submit early and often**.
 
 {: .warning }
-When submitting any assignment to Gradescope, make sure to stick around until you 
-see a confirmation that all tests have passed. If the Gradescope autograder 
-cannot grade your work or you see a message saying "Your submission timed out," 
-this indicates an error with your code, and it is your responsibility to identify 
+When submitting any assignment to Gradescope, make sure to stick around until you
+see a confirmation that all tests have passed. If the Gradescope autograder
+cannot grade your work or you see a message saying "Your submission timed out,"
+this indicates an error with your code, and it is your responsibility to identify
 and solve the problem before the deadline.
 
-It may take some time for Gradescope's autograder to grade your submission. 
-You are encouraged to submit with enough time to see the output of the autograder before the 11:59PM deadline, 
-as it may alert you to a problem you need to fix. However, if you submit before 
-11:59PM and the autograder finishes running after 11:59PM, your assigment will still be 
-considered on time. 
+It may take some time for Gradescope's autograder to grade your submission.
+You are encouraged to submit with enough time to see the output of the autograder before the 11:59PM deadline,
+as it may alert you to a problem you need to fix. However, if you submit before
+11:59PM and the autograder finishes running after 11:59PM, your assigment will still be
+considered on time.
 
-After submitting, check that you got a confirmation email 
-from Gradescope to verify that your submission was successful. Save this email 
+After submitting, check that you got a confirmation email
+from Gradescope to verify that your submission was successful. Save this email
 until you receive your grade on the assignment, in case of any issues with your submission.
 
 You are allotted **six "slip days"** to use throughout the quarter. A slip day extends
@@ -358,13 +388,13 @@ used up all of your slip days at the end of the quarter; in such an example,
 you'd instead receive a 0 on an earlier assignment that isn't weighted as much
 in your grade.
 
-If you submit the Midterm Project or Final Project late and are working with a partner, 
+If you submit the Midterm Project or Final Project late and are working with a partner,
 both you and your partner will have to use slip days. For example, if you submit the Midterm Project two days late, both you and your partner will lose two slip days.
 
 ### Submission Errors
 
 It is your responsibility to ensure that your work is submitted correctly to
-Gradescope as a `.ipynb` file, and that the Gradescope autograder can grade your work.  Watch 20:05 and onwards of [this
+Gradescope as a `.ipynb` file, and that the Gradescope autograder can grade your work. Watch 20:05 and onwards of [this
 video](https://youtu.be/Hq8VaNirDRQ?t=1206) to see two ways of downloading
 Jupyter notebooks as a `.ipynb` file.
 
@@ -373,18 +403,18 @@ When submitting your work, there are two common errors to watch out for:
 1. Submitting your notebook in the wrong format, e.g. submitting as a `.json`
    or `.txt` file instead of a `.ipynb` file. If you do this, the Gradescope
    autograder will not be able to grade your work, and you will get a 0. This
-   can almost certainly be avoided by watching the aforementioned video, and by 
-   waiting until you see confirmation from Gradescope that all tests have passed. 
+   can almost certainly be avoided by watching the aforementioned video, and by
+   waiting until you see confirmation from Gradescope that all tests have passed.
 2. Submitting the wrong notebook, e.g. submitting your Lab 6 notebook to the
    Homework 6 assignment on Gradescope. This will also give you a 0, because
    the Gradescope autograder for a particular assignment can only grade your
-   work for that assignment. To avoid this error, make sure to stick around on 
+   work for that assignment. To avoid this error, make sure to stick around on
    Gradescope after submission until you see that all tests have passed.
 
 {: .warning }
 To prevent these issues, it is important that you let the autograder run on Gradescope until it shows you under “Public Tests” that all public test cases passed. Do not navigate away from Gradescope until you see this confirmation that your submission was able to be successfully graded!
 
-If you happen to make one of the above mistakes and you notice it yourself 
+If you happen to make one of the above mistakes and you notice it yourself
 within 48 hours of the deadline, please resubmit your assignment. Since we always grade your latest submission, a resubmission after the deadline will use up slip days. If it is more than 48 hours since the deadline,
 please reach out to a staff member and we may allow you to resubmit it late, at the cost of 2 slip days.
 It is your responsibility to ensure that all assignments are submitted correctly.
@@ -393,40 +423,40 @@ It is your responsibility to ensure that all assignments are submitted correctly
 
 ## 📝 Assessments
 
-We will assess your knowledge of course material frequently through quizzes and exams. Quizzes and exams will be administered on paper, without the use of computers or calculators. You'll have access to a large collection of [practice problems](https://practice.dsc10.com/) to help you prepare. You'll see some of these problems in discussion sections and during in-class exam reviews, but the more you practice, the better prepared you'll be for the assessments.
+We will assess your knowledge of course material frequently through quizzes and exams. Quizzes and exams will be administered on paper, without the use of computers or calculators. You'll have access to a large collection of [practice problems][practice] to help you prepare. You'll see some of these problems in discussion sections and during in-class exam reviews, but the more you practice, the better prepared you'll be for the assessments.
 
 Exams and quizzes are designed to test your understanding of course material, therefore you must use methods of the course to earn credit. Solutions that are correct but outside of the scope of the course will not earn credit.
 
 ### Exams
 
 This class has one Midterm Exam and one Final Exam:
-- Midterm Exam: Wednesday, October 29th, **during your enrolled lecture slot**.
-- Final Exam: Saturday, December 6th from 3 to 6PM, location TBD.
+
+- Midterm Exam: Wednesday, February 11th, **during your enrolled lecture slot**.
+- Final Exam: Saturday, March 14th from 8 to 11AM, location TBD.
 
 Exams are cumulative, though the Final Exam will emphasize material after the Midterm Exam. Both exams will be held **in-person and on-paper**. You'll be allowed to use one 8.5 by 11 inch page of double-sided handwritten notes, but no calculators, computers, or other resources.
 
-If you have a conflict with either exam, you should let us know right away via the [Welcome Survey](https://docs.google.com/forms/d/e/1FAIpQLSfLvqLbgbPuOj6bb40k0e8JRs0epBA-BMA8I0HasTMjiz8elQ/viewform?usp=dialog) to see if accomodations can be made. Without express permission otherwise, students are required to take both exams at the scheduled times.
+If you have a conflict with either exam, you should let us know right away via the [Welcome Survey][welcome_survey] to see if accommodations can be made. Without express permission otherwise, students are required to take both exams at the scheduled times.
 
 ### Quizzes
 
-Quizzes are designed to help you get more practice solving problems on-paper without a computer in front of you, as you'll need to do on exams. Like exams, quizzes are in-person and on-paper. You'll be allowed to use one 8.5 by 11 inch page of double-sided handwritten notes, but no calculators, computers, or other resources. Quiz questions are meant to be more straightforward than exam questions, but they will help you build the skills you need to perform well on exams, as well as help you identify any areas you need more practice in before the exam. 
+Quizzes are designed to help you get more practice solving problems on-paper without a computer in front of you, as you'll need to do on exams. Like exams, quizzes are in-person and on-paper. You'll be allowed to use one 8.5 by 11 inch page of double-sided handwritten notes, but no calculators, computers, or other resources. Quiz questions are meant to be more straightforward than exam questions, but they will help you build the skills you need to perform well on exams, as well as help you identify any areas you need more practice in before the exam.
 
 There are five quizzes throughout the quarter, administered during your assigned quiz time on the following dates:
 
-- Quiz 1: Wednesday, October 15th
-- Quiz 2: Wednesday, October 22nd
-- Quiz 3: Wednesday, November 12th
-- Quiz 4: Wednesday, November 19th
-- Quiz 5: Wednesday, December 3rd
+- Quiz 1: Friday, January 23rd
+- Quiz 2: Friday, February 6th
+- Quiz 3: Friday, February 27th
+- Quiz 4: Friday, March 6th
 
-We will count only your three highest quiz scores towards your grade. In other words, we will drop your two lowest quiz scores.
+We will count only your three highest quiz scores towards your grade. In other words, we will drop your lowest quiz score.
 
 Quizzes are designed to give you low-stakes opportunities to practice solving problems on paper, with room for failure. You don't need to do well on every quiz to do well in the course.
 
 {: .warning }
 We will not offer makeup quizzes. If you are sick, traveling, or otherwise need to miss a quiz, you have some flexibility because not all scores will be factored into your grade.
 
-You must attend quizzes at **your assigned time**; see the [Quizzes and Pod Meetings](#quizzes-and-pod-meetings) section of the syllabus for details.
+You must attend quizzes at **your assigned time**; see the course calendar for the schedule of quizzes.
 
 ---
 
@@ -435,10 +465,10 @@ You must attend quizzes at **your assigned time**; see the [Quizzes and Pod Meet
 To summarize all of the events and deadlines, refer to this general weekly
 schedule. Please refer to the [homepage of this website](..) for the most up-to-date schedule of deadlines.
 
-| | **Monday** | **Tuesday** | **Wednesday** | **Thursday** | **Friday** | **Saturday** |
-| **morning** | Lecture| | Lecture | | Lecture | |
-| **afternoon** | Discussion| | Quiz or Pod Meeting | | | |
-| **evening** | | | | <b style="color:red">Lab due</b> | | <b style="color:red">Homework due</b> |
+| | **Monday** | **Tuesday** | **Wednesday** | **Thursday** | **Friday** |
+| **morning** | Lecture | | Lecture | | Lecture |
+| **afternoon** | Discussion (only Week 1) | | | |<b style="color:red">Quiz</b> |
+| **evening** | <b style="color:red">Lab due</b> | | <b style="color:red">Homework due</b> | | |
 
 ---
 
@@ -446,15 +476,13 @@ schedule. Please refer to the [homepage of this website](..) for the most up-to-
 
 Actively participating in the course is highly beneficial to your learning. Engaging with the course material, the course staff, and your peers will set you up for success in this course and in other data science courses you may take in the future. A portion of your grade will be allocated towards participation.
 
-There will be 17 participation points available:
+There will be 4 participation points available:
 
-- 1 point for the Pretest, graded for honest effort.
-- 1 point for passing the Syllabus Check at 80% or higher.
-- 1 point for completing SETs (Student Evaluations of Teaching) and an internal End-Of-Quarter Survey. 
-- 1 point for attending each discussion section (10 points total).
-- 1 point for attending each pod meeting (4 points total).
+- 2 points for the Pretest, graded for honest effort.
+- 1 point for getting all answers correct on the Syllabus Check.
+- 1 point for completing SETs (Student Evaluations of Teaching) and an internal End-Of-Quarter Survey.
 
-**Score 12 points or higher for full participation credit.** If you earn fewer than 12 points, your participation grade will be the number of points earned out of 12. There is no extra credit for earning more than 12 points.
+Your participation grade will be the number of points earned out of 4.
 
 ---
 
@@ -464,10 +492,10 @@ The table below shows how your mastery of class material will be assessed and
 how grades will be computed:
 
 | **Component** | **Weight** | **Notes** |
-| Participation | 10% | |
+| Participation | 3% | |
 | Lab Assignments | 10% | drop lowest score |
-| Homework Assignments | 20% | drop lowest score |
-| Quizzes | 10% | drop two lowest scores |
+| Homework Assignments | 25% | drop lowest score |
+| Quizzes | 12% | drop lowest score |
 | Midterm Project | 10% | |
 | Midterm Exam | 10% | |
 | Final Project | 10% | |
@@ -480,7 +508,7 @@ regardless of the number of points they are graded out of.
 
 If you'd like to request a regrade on any assignment, you must do so within one
 week of the assignment being graded. If you think there is a problem with the
-autograder,  please fill out the [Autograder Regrade Request Form](https://forms.gle/qTKubrnLCjBHSfzU6). 
+autograder, please fill out the [Autograder Regrade Request Form](https://forms.gle/qTKubrnLCjBHSfzU6).
 If you think there is a problem with how a manually-graded question was graded, submit a regrade request through Gradescope.
 
 ### Letter Grades and Incompletes
@@ -586,9 +614,9 @@ Here are some suggestions for completing your work:
 
 ### Use of Generative Artificial Intelligence
 
-Generative Artificial Intelligence (GenAI) describes tools, such as [ChatGPT](https://chat.openai.com) and GitHub Copilot, that are trained to generate responses to user-defined prompts, or questions. The existence of such tools is a major milestone in machine learning, and an impressive application of data science in the real world. 
+Generative Artificial Intelligence (GenAI) describes tools, such as [ChatGPT](https://chat.openai.com) and GitHub Copilot, that are trained to generate responses to user-defined prompts, or questions. The existence of such tools is a major milestone in machine learning, and an impressive application of data science in the real world.
 
-Our course policy on the use of GenAI tools for coursework is simple: you may use these tools to build an understanding of course material and to assist you on assignments, keeping in mind that no tool is a substitute for a strong understanding of course concepts. 
+Our course policy on the use of GenAI tools for coursework is simple: you may use these tools to build an understanding of course material and to assist you on assignments, keeping in mind that no tool is a substitute for a strong understanding of course concepts.
 
 Be mindful of how you are using GenAI tools. These tools can be very useful to help you preview material before lecture, summarize material after lecture, explain concepts you didn’t understand, and explore how different concepts are related. “Explain it like I’m five” can be a helpful prompt to give you a basic understanding of new concepts before being exposed to them in lecture. Consolidating your knowledge after learning something new and relating it to other things you know is important for learning and retention. Unfortunately, GenAI tools are not a consistently reliable source of quality information.
 
@@ -612,18 +640,17 @@ Not quite...
 
 </center>
 
-As this example illustrates, be skeptical about anything you learn from GenAI tools. Because of how GenAI tools are trained, they are designed to provide answers that _sound_ correct, not necessarily ones that _are_ correct. A goal of your education is to develop an ability to identify and produce information that actually is correct and doesn’t just sound correct. Human supervision of GenAI tools is always necessary. 
+As this example illustrates, be skeptical about anything you learn from GenAI tools. Because of how GenAI tools are trained, they are designed to provide answers that _sound_ correct, not necessarily ones that _are_ correct. A goal of your education is to develop an ability to identify and produce information that actually is correct and doesn’t just sound correct. Human supervision of GenAI tools is always necessary.
 
 In addition, proceed with caution when using tools to assist you with your assignments. DSC 10 is a foundational class for your study of data science; you need to master the skills and concepts of this course if you want to use data science effectively. Through quizzes and exams, you will be tested on your independent ability to apply course material to novel problems. Homeworks, labs, and projects are meant to prepare you for these assessments, so overreliance on GenAI for assignments will rob you of opportunities to learn and make it hard for you to perform well on assessments.
 
 If you do use GenAI to assist you on assignments, keep these guidelines in mind:
 
-- **Design your prompts carefully.** Don’t just ask one question; ask a follow-up question based on the output to the first. To use these tools effectively, you need to engineer your prompts carefully. 
-- **Test the outputs.** GenAI tools can and do make mistakes, and being able to verify the correctness of a proposed answer is an important skill for you to develop. Validate the output against course-provided references, or follow up with a search on Google or Stack Overflow.   Remember that GenAI tools provide crowdsourced likely answers, not necessarily correct answers.
-- **Don’t submit any code that you don’t understand, or that uses content not taught in this class.** In this introductory course, we expose you to a limited set of Python tools that you can use to solve a wide range of problems. When you prompt a GenAI tool with a question from DSC 10, it will not be limited to our restricted toolkit, and may provide answers using much more complicated code.  If you answer questions with out-of-scope content, you are not practicing the foundational skills that the course is meant to teach you. In addition, your code may not pass correctness tests that require your solution to use methods taught in the course.
+- **Design your prompts carefully.** Don’t just ask one question; ask a follow-up question based on the output to the first. To use these tools effectively, you need to engineer your prompts carefully.
+- **Test the outputs.** GenAI tools can and do make mistakes, and being able to verify the correctness of a proposed answer is an important skill for you to develop. Validate the output against course-provided references, or follow up with a search on Google or Stack Overflow. Remember that GenAI tools provide crowdsourced likely answers, not necessarily correct answers.
+- **Don’t submit any code that you don’t understand, or that uses content not taught in this class.** In this introductory course, we expose you to a limited set of Python tools that you can use to solve a wide range of problems. When you prompt a GenAI tool with a question from DSC 10, it will not be limited to our restricted toolkit, and may provide answers using much more complicated code. If you answer questions with out-of-scope content, you are not practicing the foundational skills that the course is meant to teach you. In addition, your code may not pass correctness tests that require your solution to use methods taught in the course.
 
-
-If your assignment submission includes any content generated by an AI tool, it should be cited to acknowledge the source of the material. At the end of each assignment, you will be provided with a space to explain and reflect on your use of GenAI tool(s). 
+If your assignment submission includes any content generated by an AI tool, it should be cited to acknowledge the source of the material. At the end of each assignment, you will be provided with a space to explain and reflect on your use of GenAI tool(s).
 
 ---
 
@@ -664,7 +691,7 @@ respected and feels comfortable.
 
 Satisfactory Academic Progress (SAP) refers to the academic standards students must maintain to remain eligible for federal, state, and institutional financial aid. If you are receiving financial aid, please ensure you review the [SAP requirements and the appeals process](https://fas.ucsd.edu/forms-and-resources/sap/index.html).
 
-We will not use a #FinAid survey, but we will certify academic activity for any student who submits any assignment, including the [Welcome Survey](https://docs.google.com/forms/d/e/1FAIpQLSfLvqLbgbPuOj6bb40k0e8JRs0epBA-BMA8I0HasTMjiz8elQ/viewform?usp=dialog). 
+We will not use a #FinAid survey, but we will certify academic activity for any student who submits any assignment, including the [Welcome Survey](https://docs.google.com/forms/d/e/1FAIpQLSfLvqLbgbPuOj6bb40k0e8JRs0epBA-BMA8I0HasTMjiz8elQ/viewform?usp=dialog).
 
 ---
 
@@ -676,7 +703,7 @@ Sorry, but instructors are not able to enroll students in classes. There is noth
 
 **I am on the waitlist, so how can I keep up with the course?**
 
-Waitlisted to students may attend lecture and discussion, space-permitting, and can also watch podcast recordings. You can (and should) still submit assignments if you are on the waitlist. If you get off the waitlist and are able to join the class, you will not get any extensions on past-due assignments. 
+Waitlisted to students may attend lecture and discussion, space-permitting, and can also watch podcast recordings. You can (and should) still submit assignments if you are on the waitlist. If you get off the waitlist and are able to join the class, you will not get any extensions on past-due assignments.
 
 Waitlisted students should have access to DataHub to work on assignments. You may need to add yourself to some course tools; see the [Getting Started](#-getting-started) section of the syllabus. If you need access to Gradescope, send a private message to the instructional staff on Campuswire with your name, PID, and email address.
 
