@@ -8,8 +8,8 @@ days:
         type: lecture
         title: Introduction
         lecturer: Sam, Peter
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=resources/lectures/lec01/lec01.ipynb
+        html: resources/lectures/lec01/lec01.html
         podcast:
         readings:
           - name: CIT 1.0
