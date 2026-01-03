@@ -5,14 +5,20 @@ description: Pointers on how to solve common technical issues.
 nav_order: 5
 ---
 
-# 🐞 Debugging
+<!-- prettier-ignore-start -->
+
+# 📖 Syllabus
 {:.no_toc}
 
 ## Table of contents
-{: .no_toc .text-delta }
+{:.no_toc}
 
 1. TOC
 {:toc}
+
+<!-- prettier-ignore-end -->
+
+[github]: {{ site.urls.github }}
 
 ## Cells and the Autograder
 
@@ -30,7 +36,7 @@ This can happen if you "overwrite" a variable that is used in a question. For in
 
 ### Why does a notebook test fail now, when it passed before and I didn’t change my code?
 
-You probably ran your notebook out of order.  Re-run all previous cells in order, which is how your code will be graded.
+You probably ran your notebook out of order. Re-run all previous cells in order, which is how your code will be graded.
 
 ### Why did a Gradescope test fail, when all the notebook's tests passed?
 
@@ -83,18 +89,18 @@ Check the type of your answer variable with `type()`. Is it what you expected?
 
 This often happens when you use a default keyword (like `str` or `list`) as a variable name, for instance `list = [1, 2, 3]`. These errors can be tricky because they don't error on their own, but cause problems when we try to use the name `list` (for example) later on in the notebook.
 
-To fix the issue, identify any such lines of code, change your variable names to be something else, and restart your notebook. 
+To fix the issue, identify any such lines of code, change your variable names to be something else, and restart your notebook.
 
 Python keywords like `str` and `list` appear in green text, so be on the lookout if any of your variable names appear in green!
 
 ### `No module named 'babypandas'`
 
 This can happen if you click the name of a course other than DSC 10 when logging into DataHub. Here's how to "switch" your DataHub to DSC 10 mode:
+
 - Click "Control Panel" in the top right.
 - Click "Services", then click "manual-resetter".
 - Click "Reset" (if a pop-up box appears, click okay).
 - Log back into DataHub and it should allow you to select a course again – select DSC 10.
-
 
 ### Other errors
 
@@ -112,7 +118,7 @@ This error can also occur if you're using an unsupported internet browser. Make 
 
 If you've already worked on an assignment and then start seeing this error, try going directly to DataHub ([datahub.ucsd.edu](https://datahub.ucsd.edu)) to continue working on your assignment.
 
-If all else fails, this issue usually resolves itself with time, so try again in a few hours. 
+If all else fails, this issue usually resolves itself with time, so try again in a few hours.
 
 ### When I click a link on the course website, I see a black screen with text and a red error bar. What should I do?
 
@@ -126,13 +132,13 @@ This is usually what's called a "merge conflict", which means that DataHub wasn'
 
 2. On the upper right of the page, click the dropdown menu that says "New" and select "Terminal".
 
-    <center><img src="../assets/images/terminal.png" width="30%"></center>
+<center><img src="../assets/images/terminal.png" width="30%"></center>
 
 3. In the terminal, type `cd dsc10-2025-fa`, then hit the enter key to run it. The command will not display anything.
 
 4. Still in the terminal, type `git stash`, at which point your terminal window should look like the one below. Then, hit enter to run the command. You should see some output.
 
-    <center><img src="../assets/images/commands.png" width="50%"></center>
+<center><img src="../assets/images/commands.png" width="50%"></center>
 
 5. Finally, go back to [dsc10.com](https://dsc10.com) and click the link to the assignment you were attempting to work on. It should now load without error. If you still see an error, make a post on Ed with a screenshot of the error you see now.
 
@@ -142,19 +148,20 @@ Log out of all Google accounts or open an incognito window. When prompted, enter
 
 ### How can Extension Students access DataHub?
 
-Extension students may receive separate accounts for the purpose of accessing DataHub.  To look up your account information and reset any additional account passwords, visit [this website](https://sdacs.ucsd.edu/~icc/index.php) and enter your AX account in the username field and your UID in the Student ID field (e.g. "axNNNN", "cs120sp20aa", etc.)
+Extension students may receive separate accounts for the purpose of accessing DataHub. To look up your account information and reset any additional account passwords, visit [this website](https://sdacs.ucsd.edu/~icc/index.php) and enter your AX account in the username field and your UID in the Student ID field (e.g. "axNNNN", "cs120sp20aa", etc.)
 
 ### My notebook won't load. Is DataHub down?
 
-Sometimes DataHub does have availability issues. Usually it is back up and running again within an hour. In other instances, there are some things you can do to get the notebook running again: Make sure your internet connection is working. If you can, restart your server by clicking the button at the top right labeled "Control Panel", then select "Stop My Server", followed by "Start My Server".  If that doesn't work, try restarting your computer and using a different browser. Whenever you resume working on a notebook, run all cells you've previously completed. If your problem persists after trying all these steps, please notify us on Ed.
+Sometimes DataHub does have availability issues. Usually it is back up and running again within an hour. In other instances, there are some things you can do to get the notebook running again: Make sure your internet connection is working. If you can, restart your server by clicking the button at the top right labeled "Control Panel", then select "Stop My Server", followed by "Start My Server". If that doesn't work, try restarting your computer and using a different browser. Whenever you resume working on a notebook, run all cells you've previously completed. If your problem persists after trying all these steps, please notify us on Ed.
 
 ### What if I don't have access to DataHub and I still want to access DSC 10 materials?
 
-We welcome the general public to use our materials. If you're not enrolled in the class, or you don't yet have acccess to Datahub, you can access all lectures and assignments in our [public GitHub repository](https://github.com/dsc-courses/dsc10-2025-fa). In order to run Jupyter notebooks locally on your own computer, we recommend using [Anaconda](https://www.anaconda.com/). Note that students hoping to enroll in the course should complete all assignments by the due date, even if you don't yet have access to DataHub. 
+We welcome the general public to use our materials. If you're not enrolled in the class, or you don't yet have access to Datahub, you can access all lectures and assignments in our [public GitHub repository][github]. In order to run Jupyter notebooks locally on your own computer, we recommend using [uv](https://docs.astral.sh/uv/). Note that students hoping to enroll in the course should complete all assignments by the due date, even if you don't yet have access to DataHub.
 
 ### How can I download all my work from DataHub if I want to keep it after the quarter ends?
 
 Here are the steps that to make the process really efficient!
+
 1. Go directly to [https://datahub.ucsd.edu](https://datahub.ucsd.edu). This should bring you to the top-level directory of your DataHub.
 2. Click "New > Terminal" in the top right.
 3. Enter this command: `7z a my-files.zip *`

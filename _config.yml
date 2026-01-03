@@ -34,6 +34,7 @@ urls:
   podcasts: &podcasts 'https://podcast.ucsd.edu/'
   syllabus_check: 'https://docs.google.com/forms/d/e/1FAIpQLSfcH_YKl2gY9lasAUSSkKDMiNrB82m4NZIEYdomYEoZoZl5Hw/viewform?usp=sharing&ouid=104866872711045167069'
   welcome_survey: 'https://docs.google.com/forms/d/e/1FAIpQLSc-Shhz9yTDWDri4MBfBlOsOyeZt_4VGxRBgkbKfVK75SclSQ/viewform?usp=sharing&ouid=104866872711045167069'
+  github: 'https://github.com/dsc-courses/dsc10-2026-wi'
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
