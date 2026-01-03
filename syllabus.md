@@ -208,7 +208,7 @@ them, too (though they're all linked at the top of this website).
 
 To demonstrate that you have read and understood the policies on the syllabus and course website, you'll be asked to complete a [Syllabus Check][syllabus_check], which is a short quiz about the information contained on the syllabus and course website.
 
-You must complete the Syllabus Check before the deadline with a score of **80% or higher to earn credit**. You can only take this quiz once, so make sure to read the course website thoroughly before beginning.
+You must complete the Syllabus Check before the deadline with a score of **100% to earn credit**. However, you may modify your answers after receiving your score, so please resubmit as necessary in order to receive the required score.
 
 If you have questions about any course-related policies in the future, always refer to the syllabus and course website first!
 
@@ -415,7 +415,7 @@ When submitting your work, there are two common errors to watch out for:
 To prevent these issues, it is important that you let the autograder run on Gradescope until it shows you under “Public Tests” that all public test cases passed. Do not navigate away from Gradescope until you see this confirmation that your submission was able to be successfully graded!
 
 If you happen to make one of the above mistakes and you notice it yourself
-within 48 hours of the deadline, please resubmit your assignment. Since we always grade your latest submission, a resubmission after the deadline will use up slip days. If it is more than 48 hours since the deadline,
+within 48 hours of the deadline, please resubmit your assignment. Note that this will use slip days, since we always grade your latest submission. If it is more than 48 hours since the deadline,
 please reach out to a staff member and we may allow you to resubmit it late, at the cost of 2 slip days.
 It is your responsibility to ensure that all assignments are submitted correctly.
 
@@ -442,7 +442,7 @@ If you have a conflict with either exam, you should let us know right away via t
 
 Quizzes are designed to help you get more practice solving problems on-paper without a computer in front of you, as you'll need to do on exams. Like exams, quizzes are in-person and on-paper. You'll be allowed to use one 8.5 by 11 inch page of double-sided handwritten notes, but no calculators, computers, or other resources. Quiz questions are meant to be more straightforward than exam questions, but they will help you build the skills you need to perform well on exams, as well as help you identify any areas you need more practice in before the exam.
 
-There are five quizzes throughout the quarter, administered during your assigned quiz time on the following dates:
+There are four quizzes throughout the quarter, administered during your assigned quiz time on the following dates:
 
 - Quiz 1: Friday, January 23rd
 - Quiz 2: Friday, February 6th
