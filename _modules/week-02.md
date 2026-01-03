@@ -19,6 +19,10 @@ days:
         type: lab
         title: Expressions and Data Types
         url:
+      - name: PRE
+        type: survey
+        title: Pretest
+        url: https://practice.dsc10.com/pretest/index.html
   - date: 2026-1-14
     events:
       - name: LEC 5
@@ -45,8 +49,7 @@ days:
           - name: CIT 7.0-7.1
             url: https://inferentialthinking.com/chapters/07/Visualization.html
         keywords: numerical vs. categorical, scatter plot, line plot, bar chart, exoplanets
-      - name: PRE
-        type: survey
-        title: Pretest
-        url: https://practice.dsc10.com/pretest/index.html
+      - name: QUIZ
+        type: quiz
+        title: Research Assessment 1 (+1% extra credit for completion)
 ---

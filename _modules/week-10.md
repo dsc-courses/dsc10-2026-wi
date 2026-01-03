@@ -45,9 +45,9 @@ days:
         html:
         podcast:
         readings:
-      - name: POST
+      - name: QUIZ
         type: quiz
-        title: Post-test
+        title: Research Assessment 2 (+1% extra credit for completion)
   - date: 2026-3-14
     events:
       - markdown_content: <b>Final Exam (8-11AM)</b>
