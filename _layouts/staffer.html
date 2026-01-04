@@ -41,6 +41,8 @@
     <h3 class="staffer-name">
       {% if page.role %}
       {% if page.role == 'TA' %}
+      <span class="badge-tutor">{{ page.role }}</span><br>
+      {% elsif page.role == 'Graduate Reader' %}
       <span class="badge-ta">{{ page.role }}</span><br>
       {% elsif page.role == 'Tutor' %}
       <span class="badge-tutor">{{ page.role }}</span><br>
