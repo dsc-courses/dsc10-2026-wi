@@ -1,6 +1,6 @@
 ---
 name: Minchan Kim
-role: Tutor
+role: Graduate Reader
 pronouns: he/him
 email:
 photo: assets/staff-images/kim-minchan.jpg
