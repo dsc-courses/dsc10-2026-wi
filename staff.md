@@ -23,6 +23,12 @@ _Hover over an emoji to see a description._
 {{ staffer }}
 {% endfor %}
 
+{% assign staff = site.staffers | where: 'role', 'Graduate Reader' %}
+{% for staffer in staff %}
+{{ staffer }}
+{% endfor %}
+
+
 {% assign staff = site.staffers | where: 'role', 'Tutor' %}
 {% for staffer in staff %}
 {{ staffer }}
