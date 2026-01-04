@@ -1,6 +1,6 @@
 ---
 name: Hemanth Bodala
-role: Tutor
+role: TA
 pronouns: he/him
 email:
 photo: assets/staff-images/hemanth-bodala.jpg
