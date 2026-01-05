@@ -8,7 +8,7 @@ days:
         type: lecture
         title: Introduction
         lecturer: Sam, Peter
-        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=lectures/lec01/lec01.ipynb
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=lectures/lec01/lec01-live.ipynb
         html: resources/lectures/lec01/lec01.html
         podcast:
         readings:
