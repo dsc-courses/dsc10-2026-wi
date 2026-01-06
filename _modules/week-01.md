@@ -27,8 +27,8 @@ days:
         type: lecture
         title: Expressions and Data Types
         lecturer: Sam
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=lectures/lec02/lec02-live.ipynb
+        html: resources/lectures/lec02/lec02.html
         podcast:
         readings:
           - name: BPD 3-5
