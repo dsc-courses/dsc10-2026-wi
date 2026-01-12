@@ -8,8 +8,8 @@ days:
         type: lecture
         title: DataFrames
         lecturer: Sam
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=lectures/lec04/lec04-live.ipynb
+        html: resources/lectures/lec04/lec04.html
         podcast:
         readings:
           - name: BPD 9
@@ -29,8 +29,8 @@ days:
         type: lecture
         title: Querying and Grouping
         lecturer: Sam
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=lectures/lec05/lec05-live.ipynb
+        html: resources/lectures/lec05/lec05.html
         podcast:
         readings:
           - name: BPD 10-11
@@ -42,8 +42,8 @@ days:
         type: lecture
         title: Data Visualization
         lecturer: Sam
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=lectures/lec06/lec06-live.ipynb
+        html: resources/lectures/lec06/lec06.html
         podcast:
         readings:
           - name: CIT 7.0-7.1
