@@ -7510,7 +7510,7 @@ a.anchor-link {
 </style>
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
-<main><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<main><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7520,7 +7520,31 @@ a.anchor-link {
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Run this cell to set up packages for lecture.</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">lec06_imports</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<span class="o">%</span><span class="k">reload_ext</span> pandas_tutor
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<script src="https://cokapi.com/wst-pg-devel/wst/wsapp/frontend/build/wsembed.bundle.js" type="text/javascript"></script>
+<script>
+console.log("initializing pandas_tutor js")
+
+function drawWsv(viz_id, spec, options) {
+  if (typeof createWsvFromPandasTrace === 'undefined') {
+    setTimeout(() => drawWsv(viz_id, spec, options), 2000) // retry in 2 seconds
+    return
+  }
+  createWsvFromPandasTrace(viz_id, spec, options)
+}
+</script>
 </div>
 </div>
 </div>
@@ -7552,6 +7576,54 @@ a.anchor-link {
 <li>Line plots.</li>
 <li>Bar charts.</li>
 </ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="%F0%9F%92%A1-Pro-Tip:-Using-Pandas-Tutor">💡 Pro-Tip: Using Pandas Tutor<a class="anchor-link" href="#%F0%9F%92%A1-Pro-Tip:-Using-Pandas-Tutor">¶</a></h3><p>Pandas Tutor (built by Sam Lau) is pre-installed on DataHub. It visualizes the
+last line of a Jupyter cell. To use it, there are two steps:</p>
+<ol>
+<li>Add the line <code>%reload_ext pandas_tutor</code> to the top of your notebook and run it (notice that we already did that in this notebook).</li>
+<li>To visualize a cell, add <code>%%pt</code> to the top of the cell:</li>
+</ol>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">pt</span>
+
+df = bpd.read_csv('data/dogs_small.csv')
+df.get(['size', 'longevity']).groupby('size').mean()
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div class="pt-viz" id="pt-viz-0"></div>
+<script>
+drawWsv('#pt-viz-0', "{\n  \"code\": \"\\ndf = bpd.read_csv('data/dogs_small.csv')\\ndf.get(['size', 'longevity']).groupby('size').mean()\\n\",\n  \"explanation\": [\n    {\n      \"type\": \"GetCall\",\n      \"code_step\": \"df.get(['size', 'longevity']).groupby('size').mean()\",\n      \"fragment\": {\n        \"start\": {\n          \"line\": 0,\n          \"ch\": 2\n        },\n        \"end\": {\n          \"line\": 0,\n          \"ch\": 29\n        }\n      },\n      \"marks\": [\n        {\n          \"type\": \"map\",\n          \"from\": {\n            \"type\": \"axis\",\n            \"anchor\": \"lhs\",\n            \"select\": \"column\",\n            \"label\": \"size\"\n          },\n          \"to\": {\n            \"type\": \"axis\",\n            \"anchor\": \"rhs\",\n            \"select\": \"column\",\n            \"label\": \"size\"\n          }\n        },\n        {\n          \"type\": \"map\",\n          \"from\": {\n            \"type\": \"axis\",\n            \"anchor\": \"lhs\",\n            \"select\": \"column\",\n            \"label\": \"longevity\"\n          },\n          \"to\": {\n            \"type\": \"axis\",\n            \"anchor\": \"rhs\",\n            \"select\": \"column\",\n            \"label\": \"longevity\"\n          }\n        }\n      ],\n      \"data\": {\n        \"lhs\": {\n          \"type\": \"DataFrame\",\n          \"columns\": {\n            \"names\": [\n              null\n            ],\n            \"labels\": [\n              \"breed\",\n              \"size\",\n              \"longevity\"\n            ]\n          },\n          \"index\": {\n            \"names\": [\n              null\n            ],\n            \"labels\": [\n              0,\n              1,\n              2,\n              3,\n              4,\n              5,\n              6,\n              7\n            ]\n          },\n          \"data\": [\n            [\n              \"German\",\n              \"large\",\n              9.73\n            ],\n            [\n              \"Labrador\",\n              \"medium\",\n              12.04\n            ],\n            [\n              \"Golden\",\n              \"medium\",\n              12.04\n            ],\n            [\n              \"Bulldog\",\n              \"medium\",\n              6.29\n            ],\n            [\n              \"Boxer\",\n              \"medium\",\n              8.81\n            ],\n            [\n              \"Poodle\",\n              \"medium\",\n              11.95\n            ],\n            [\n              \"Beagle\",\n              \"small\",\n              12.3\n            ],\n            [\n              \"Yorkshire\",\n              \"small\",\n              12.6\n            ]\n          ]\n        },\n        \"rhs\": {\n          \"type\": \"DataFrame\",\n          \"columns\": {\n            \"names\": [\n              null\n            ],\n            \"labels\": [\n              \"size\",\n              \"longevity\"\n            ]\n          },\n          \"index\": {\n            \"names\": [\n              null\n            ],\n            \"labels\": [\n              0,\n              1,\n              2,\n              3,\n              4,\n              5,\n              6,\n              7\n            ]\n          },\n          \"data\": [\n            [\n              \"large\",\n              9.73\n            ],\n            [\n              \"medium\",\n              12.04\n            ],\n            [\n              \"medium\",\n              12.04\n            ],\n            [\n              \"medium\",\n              6.29\n            ],\n            [\n              \"medium\",\n              8.81\n            ],\n            [\n              \"medium\",\n              11.95\n            ],\n            [\n              \"small\",\n              12.3\n            ],\n            [\n              \"small\",\n              12.6\n            ]\n          ]\n        }\n      }\n    },\n    {\n      \"type\": \"GroupByCall\",\n      \"code_step\": \"df.get(['size', 'longevity']).groupby('size').mean()\",\n      \"fragment\": {\n        \"start\": {\n          \"line\": 0,\n          \"ch\": 29\n        },\n        \"end\": {\n          \"line\": 0,\n          \"ch\": 45\n        }\n      },\n      \"marks\": [\n        {\n          \"type\": \"using\",\n          \"pos\": {\n            \"type\": \"axis\",\n            \"anchor\": \"lhs\",\n            \"select\": \"column\",\n            \"label\": \"size\"\n          }\n        }\n      ],\n      \"data\": {\n        \"lhs\": \"prev_rhs\",\n        \"rhs\": {\n          \"type\": \"DataFrameGroupBy\",\n          \"columns\": {\n            \"names\": [\n              null\n            ],\n            \"labels\": [\n              \"size\",\n              \"longevity\"\n            ]\n          },\n          \"index\": {\n            \"names\": [\n              null\n            ],\n            \"labels\": [\n              0,\n              1,\n              2,\n              3,\n              4,\n              5,\n              6,\n              7\n            ]\n          },\n          \"data\": [\n            [\n              \"large\",\n              9.73\n            ],\n            [\n              \"medium\",\n              12.04\n            ],\n            [\n              \"medium\",\n              12.04\n            ],\n            [\n              \"medium\",\n              6.29\n            ],\n            [\n              \"medium\",\n              8.81\n            ],\n            [\n              \"medium\",\n              11.95\n            ],\n            [\n              \"small\",\n              12.3\n            ],\n            [\n              \"small\",\n              12.6\n            ]\n          ],\n          \"group_data\": {\n            \"columns\": [\n              \"size\"\n            ],\n            \"groups\": [\n              {\n                \"name\": [\n                  \"large\"\n                ],\n                \"labels\": [\n                  0\n                ]\n              },\n              {\n                \"name\": [\n                  \"medium\"\n                ],\n                \"labels\": [\n                  1,\n                  2,\n                  3,\n                  4,\n                  5\n                ]\n              },\n              {\n                \"name\": [\n                  \"small\"\n                ],\n                \"labels\": [\n                  6,\n                  7\n                ]\n              }\n            ]\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"GroupByAggCall\",\n      \"code_step\": \"df.get(['size', 'longevity']).groupby('size').mean()\",\n      \"fragment\": {\n        \"start\": {\n          \"line\": 0,\n          \"ch\": 45\n        },\n        \"end\": {\n          \"line\": 0,\n          \"ch\": 52\n        }\n      },\n      \"marks\": [\n        {\n          \"type\": \"map\",\n          \"from\": {\n            \"type\": \"axis\",\n            \"anchor\": \"lhs\",\n            \"select\": \"row\",\n            \"label\": 0\n          },\n          \"to\": {\n            \"type\": \"axis\",\n            \"anchor\": \"rhs\",\n            \"select\": \"row\",\n            \"label\": \"large\"\n          }\n        },\n        {\n          \"type\": \"map\",\n          \"from\": {\n            \"type\": \"axis\",\n            \"anchor\": \"lhs\",\n            \"select\": \"row\",\n            \"label\": 1\n          },\n          \"to\": {\n            \"type\": \"axis\",\n            \"anchor\": \"rhs\",\n            \"select\": \"row\",\n            \"label\": \"medium\"\n          }\n        },\n        {\n          \"type\": \"map\",\n          \"from\": {\n            \"type\": \"axis\",\n            \"anchor\": \"lhs\",\n            \"select\": \"row\",\n            \"label\": 2\n          },\n          \"to\": {\n            \"type\": \"axis\",\n            \"anchor\": \"rhs\",\n            \"select\": \"row\",\n            \"label\": \"medium\"\n          }\n        },\n        {\n          \"type\": \"map\",\n          \"from\": {\n            \"type\": \"axis\",\n            \"anchor\": \"lhs\",\n            \"select\": \"row\",\n            \"label\": 3\n          },\n          \"to\": {\n            \"type\": \"axis\",\n            \"anchor\": \"rhs\",\n            \"select\": \"row\",\n            \"label\": \"medium\"\n          }\n        },\n        {\n          \"type\": \"map\",\n          \"from\": {\n            \"type\": \"axis\",\n            \"anchor\": \"lhs\",\n            \"select\": \"row\",\n            \"label\": 4\n          },\n          \"to\": {\n            \"type\": \"axis\",\n            \"anchor\": \"rhs\",\n            \"select\": \"row\",\n            \"label\": \"medium\"\n          }\n        },\n        {\n          \"type\": \"map\",\n          \"from\": {\n            \"type\": \"axis\",\n            \"anchor\": \"lhs\",\n            \"select\": \"row\",\n            \"label\": 5\n          },\n          \"to\": {\n            \"type\": \"axis\",\n            \"anchor\": \"rhs\",\n            \"select\": \"row\",\n            \"label\": \"medium\"\n          }\n        },\n        {\n          \"type\": \"map\",\n          \"from\": {\n            \"type\": \"axis\",\n            \"anchor\": \"lhs\",\n            \"select\": \"row\",\n            \"label\": 6\n          },\n          \"to\": {\n            \"type\": \"axis\",\n            \"anchor\": \"rhs\",\n            \"select\": \"row\",\n            \"label\": \"small\"\n          }\n        },\n        {\n          \"type\": \"map\",\n          \"from\": {\n            \"type\": \"axis\",\n            \"anchor\": \"lhs\",\n            \"select\": \"row\",\n            \"label\": 7\n          },\n          \"to\": {\n            \"type\": \"axis\",\n            \"anchor\": \"rhs\",\n            \"select\": \"row\",\n            \"label\": \"small\"\n          }\n        }\n      ],\n      \"data\": {\n        \"lhs\": \"prev_rhs\",\n        \"rhs\": {\n          \"type\": \"DataFrame\",\n          \"columns\": {\n            \"names\": [\n              null\n            ],\n            \"labels\": [\n              \"longevity\"\n            ]\n          },\n          \"index\": {\n            \"names\": [\n              \"size\"\n            ],\n            \"labels\": [\n              \"large\",\n              \"medium\",\n              \"small\"\n            ]\n          },\n          \"data\": [\n            [\n              9.73\n            ],\n            [\n              10.225999999999999\n            ],\n            [\n              12.45\n            ]\n          ]\n        }\n      }\n    }\n  ]\n}", {"nohover": true, "maxDisplayRows": 7, "maxDisplayCols": 5});
+</script>
+</div>
 </div>
 </div>
 </div>
@@ -7620,7 +7692,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">states</span> <span class="o">=</span> <span class="n">bpd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'data/states.csv'</span><span class="p">)</span>
@@ -7637,7 +7709,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -7762,7 +7834,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">([</span><span class="s1">'Region'</span><span class="p">,</span> <span class="s1">'Population'</span><span class="p">])</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
@@ -7776,7 +7848,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -7904,7 +7976,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="p">(</span><span class="n">states</span>
@@ -7925,7 +7997,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8003,7 +8075,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">states</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">)</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
@@ -8017,7 +8089,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8124,7 +8196,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">bpd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'data/lw_counts.csv'</span><span class="p">)</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">'Chapter'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">3.0</span><span class="p">);</span>
@@ -8493,7 +8565,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">exo</span> <span class="o">=</span> <span class="n">bpd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'data/exoplanets.csv'</span><span class="p">)</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">'Name'</span><span class="p">)</span>
@@ -8508,7 +8580,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8655,7 +8727,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">exo</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">'scatter'</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'Distance'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'Magnitude'</span><span class="p">);</span>
@@ -8743,7 +8815,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">exo</span><span class="p">[</span><span class="n">exo</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Distance'</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">10000</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">'scatter'</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'Distance'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'Magnitude'</span><span class="p">);</span>
@@ -8804,7 +8876,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># There were multiple exoplanets discovered each year.</span>
@@ -8820,7 +8892,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8956,7 +9028,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">exo</span><span class="o">.</span><span class="n">get</span><span class="p">([</span><span class="s1">'Year'</span><span class="p">,</span> <span class="s1">'Magnitude'</span><span class="p">])</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'Year'</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
@@ -8970,7 +9042,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9039,7 +9111,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="p">(</span><span class="n">exo</span>
@@ -9126,7 +9198,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">YouTubeVideo</span><span class="p">(</span><span class="s1">'glzZ04D1kDg'</span><span class="p">)</span>
@@ -9140,7 +9212,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[13]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <iframe allowfullscreen="" frameborder="0" height="300" src="https://www.youtube.com/embed/glzZ04D1kDg" width="400"></iframe>
 </div>
@@ -9187,7 +9259,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">exo</span>
@@ -9201,7 +9273,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9324,7 +9396,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">types</span> <span class="o">=</span> <span class="p">(</span><span class="n">exo</span>
@@ -9343,7 +9415,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9417,7 +9489,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">types</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">'barh'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'Radius'</span><span class="p">);</span>
@@ -9443,7 +9515,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">types</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">'barh'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'Mass'</span><span class="p">);</span>
@@ -9536,7 +9608,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Count how many exoplanets are discovered by each detection method.</span>
@@ -9552,7 +9624,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[19]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9666,7 +9738,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Give columns more meaningful names and eliminate redundancy.</span>
@@ -9685,7 +9757,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[19]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9754,7 +9826,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Notice that the bars appear in the opposite order relative to the DataFrame.</span>
@@ -9781,7 +9853,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Change "barh" to "bar" to get a vertical bar chart. </span>
@@ -9820,7 +9892,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">bars</span> <span class="o">=</span> <span class="n">types</span><span class="o">.</span><span class="n">get</span><span class="p">([</span><span class="s1">'Magnitude'</span><span class="p">,</span> <span class="s1">'Radius'</span><span class="p">])</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">'barh'</span><span class="p">);</span>
@@ -9876,7 +9948,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">types</span>
@@ -9890,7 +9962,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9964,7 +10036,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">types</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">'barh'</span><span class="p">);</span>
@@ -10001,7 +10073,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">types</span>
@@ -10015,7 +10087,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -10089,7 +10161,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">types</span><span class="o">.</span><span class="n">get</span><span class="p">([</span><span class="s1">'Magnitude'</span><span class="p">,</span> <span class="s1">'Radius'</span><span class="p">])</span>
@@ -10103,7 +10175,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -10165,7 +10237,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">types</span><span class="o">.</span><span class="n">get</span><span class="p">([</span><span class="s1">'Magnitude'</span><span class="p">,</span> <span class="s1">'Radius'</span><span class="p">])</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">'barh'</span><span class="p">);</span>
