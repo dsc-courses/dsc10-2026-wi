@@ -7,7 +7,7 @@ days:
       - name: LEC 9
         type: lecture
         title: Grouping on Multiple Columns, Merging
-        lecturer: Peter
+        lecturer: Sam
         url:
         html:
         podcast:

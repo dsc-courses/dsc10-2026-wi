@@ -33,7 +33,7 @@ days:
       - name: LEC 8
         type: lecture
         title: Functions and Applying
-        lecturer: Peter
+        lecturer: Sam
         url:
         html:
         podcast:
