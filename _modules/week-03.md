@@ -18,7 +18,7 @@ days:
         title: Distributions and Histograms
         lecturer: Peter
         url:
-        html:
+        html: resources/lectures/lec07/lec07.html
         podcast:
         readings:
           - name: CIT 7.2-7.3
