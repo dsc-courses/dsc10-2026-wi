@@ -10,7 +10,7 @@ days:
       - name: LAB 1
         type: lab
         title: Arrays and DataFrames
-        url:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=labs/lab1/lab1.ipynb
   - date: 2026-1-21
     events:
       - name: LEC 7
@@ -18,7 +18,7 @@ days:
         title: Distributions and Histograms
         lecturer: Peter
         url:
-        html:
+        html: 
         podcast:
         readings:
           - name: CIT 7.2-7.3
@@ -27,13 +27,13 @@ days:
       - name: HW 1
         type: hw
         title: Basic Python, Arrays, and DataFrames
-        url:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=homeworks/hw1/hw1.ipynb
   - date: 2026-1-23
     events:
       - name: LEC 8
         type: lecture
         title: Functions and Applying
-        lecturer: Peter
+        lecturer: Sam
         url:
         html:
         podcast:
