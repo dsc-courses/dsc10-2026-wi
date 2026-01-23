@@ -34,8 +34,8 @@ days:
         type: lecture
         title: Functions and Applying
         lecturer: Sam
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=lectures/lec08/lec08-live.ipynb
+        html: resources/lectures/lec08/lec08.html
         podcast:
         readings:
           - name: BPD 6
