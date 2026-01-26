@@ -27,7 +27,7 @@ days:
         type: lecture
         title: Conditional Statements and Iteration
         lecturer: Peter
-        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=lectures/lec010/lec010-live.ipynb
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=lectures/lec10/lec10-live.ipynb
         html: resources/lectures/lec10/lec10.html
         podcast:
         readings:
