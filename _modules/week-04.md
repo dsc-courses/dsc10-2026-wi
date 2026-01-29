@@ -44,7 +44,7 @@ days:
         type: lecture
         title: Probability
         lecturer: Peter
-        url:
+        url: resources/lectures/lec09/lec11.pdf
         html:
         podcast:
         readings:
