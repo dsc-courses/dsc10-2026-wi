@@ -43,7 +43,7 @@ days:
       - name: LEC 11
         type: lecture
         title: Probability
-        lecturer: Peter
+        lecturer: Peterx
         url: 
         html: resources/lectures/lec11/lec11.pdf
         A: resources/lectures/lec11/lec11_secA.pdf
