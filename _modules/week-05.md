@@ -8,8 +8,8 @@ days:
         type: lecture
         title: Simulation
         lecturer: Sam
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=lectures/lec12/lec12-live.ipynb
+        html: resources/lectures/lec12/lec12.html
         podcast:
         readings:
           - name: CIT 9.3-9.4
