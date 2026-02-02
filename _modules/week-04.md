@@ -44,8 +44,10 @@ days:
         type: lecture
         title: Probability
         lecturer: Peter
-        url: resources/lectures/lec11/lec11.pdf
-        html:
+        url: 
+        html: resources/lectures/lec11/lec11.pdf
+        9am: resources/lectures/lec11/lec11_secB.pdf
+        11am: resources/lectures/lec11/lec11_secA.pdf
         podcast:
         readings:
           - name: CIT 9.5
