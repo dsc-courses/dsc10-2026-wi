@@ -25,8 +25,8 @@ days:
         type: lecture
         title: Distributions and Sampling
         lecturer: Sam
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=lectures/lec13/lec13-live.ipynb
+        html: resources/lectures/lec13/lec13.html
         podcast:
         readings:
           - name: CIT 10.0-10.4
