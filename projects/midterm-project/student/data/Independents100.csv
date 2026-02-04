@@ -1,0 +1,101 @@
+Rank,Restaurant,Sales,Average Check,City,State,Meals Served
+1,Komodo,41000000,115,Miami,Fla.,285000
+2,The Boathouse Orlando,39863628,44,Orlando,Fla.,921785
+3,Swan,31000000,85,Miami,Fla.,185000
+4,Maple & Ash (Chicago),30285684,106,Chicago,Ill.,285714
+5,Mila,27350000,134,Miami Beach,Fla.,203990
+6,Alinea,27072500,650,Chicago,Ill.,41650
+7,Top of the World,25672308,133,Las Vegas,Nev.,218586
+8,Shooters Waterfront,25025370,68,Fort Lauderdale,Fla.,419972
+9,Prime 112,24750000,155,Miami Beach,Fla.,210000
+10,Paddlefish,23795000,52,Orlando,Fla.,485000
+11,Capa,23547000,121,Orlando,Fla.,197000
+12,Maple & Ash (Scottsdale),23487122,95,Scottsdale,Ariz.,247232
+13,Commander's Palace,23184000,89,New Orleans,La.,264000
+14,Taste of Texas,23180522,64,Houston,Texas,356894
+15,"Joe's Seafood, Prime Steak & Stone Crab (Washington, D.C.)",22477000,94,Washington,D.C.,255000
+16,Gibsons Italia,22342704,116,Chicago,Ill.,209788
+17,"Joe's Seafood, Prime Steak & Stone Crab (Chicago)",22292000,99,Chicago,Ill.,210000
+18,Papi Steak,22000000,240,Miami Beach,Fla.,91667
+19,Marion,21989000,85,Miami,Fla.,255000
+20,Buddakan (NYC),21800593,91,New York,N.Y.,177000
+21,LAVO Italian Restaurant & Nightclub,21532000,95,New York,N.Y.,175000
+22,Parc,21528659,74,Philadelphia,Pa.,383392
+23,Le Diplomate,21477955,75,Washington,D.C.,347263
+24,Gibsons Bar Steakhouse (Oak Brook),20774202,89,Oak Brook,Ill.,252326
+25,"Joe's Seafood, Prime Steak & Stone Crab (Las Vegas)",20573000,99,Las Vegas,Nev.,242632
+26,Gibsons Bar & Steakhouse (Chicago),20493301,77,Chicago,Ill.,269777
+27,RPM Steak,20227000,105,Chicago,Ill.,193000
+28,Rusty Pelican Miami,20130324,84,Miami,Fla.,185222
+29,Bazaar Meat by Jose Andres,19963000,139,Las Vegas,Nev.,160528
+30,Pastis,19735732,75,New York,N.Y.,268216
+31,Balthazar,19638000,98,New York,N.Y.,389250
+32,SW Steakhouse,19371000,163,Las Vegas,Nev.,110000
+33,Harris Ranch Inn & Restaurant,18848657,29,Coalinga,Calif.,641337
+34,Makoto,18572987,78,Miami Beach,Fla.,233039
+35,Castaway Burbank,18387832,135,Burbank,Calif.,174183
+36,Morimoto Asia,18159000,76,Orlando (Disney Springs),Fla.,520000
+37,Sharky's on the Pier,18159000,45,Venice,Fla.,450000
+38,Original Joe's Westlake,18123824,48,San Francisco,Calif.,334604
+39,Rustic Inn,17900000,58,Fort Lauderdale,Fla.,315000
+40,BOA Steakhouse,17670519,135,West Hollywood,Calif.,142000
+41,Abe & Louie's,17549249,83,Boston,Mass.,210000
+42,Shaw's Crab House,17426000,82,Chicago,Ill.,221520
+43,St. Elmo Steak House,17335304,109,Indianapolis,Ind.,154575
+44,Chicago Cut Steakhouse,17211000,102,Chicago,Ill.,198564
+45,Swift & Sons,17108000,123,Chicago,Ill.,184000
+46,Zehnder's of Frankenmuth,17027211,19,Frankenmuth,Mich.,908951
+47,Hell's Kitchen (Las Vegas),16899000,135,Las Vegas,Nev.,120000
+48,Old Mill Restaurant,16702024,17,Pigeon Forge,Tenn.,966849
+49,LAVO Italian Restaurant & Lounge,16547000,111,Las Vegas,Nev.,110231
+50,Prime Steakhouse,16423000,195,Las Vegas,Nev.,101145
+51,"Mike's ""American""",16380000,42,Springfield,Va.,390000
+52,Mon Ami Gabi,16297000,96,Las Vegas,Nev.,296324
+53,Big Texan Steak Ranch,16256000,32,Amarillo,Texas,451265
+54,Gibsons Bar & Steakhouse (Rosemont),16089179,89,Rosemont,Ill.,196231
+55,Matt's El Rancho,15835297,29,Austin,Texas,546044
+56,15th Street Fisheries,15826203,72,Fort Lauderdale,Fla.,385000
+57,Knife & Fork Inn,15800000,75,Atlantic City,N.J.,225000
+58,Bottega Louie,15742000,43,Los Angeles,Calif.,302574
+59,Frankenmuth Bavarian Inn,15738122,25,Frankenmuth,Mich.,636526
+60,Franklin Barbecue,15599000,54,Austin,Texas.,300000
+61,Tavern on Rush,15432000,77,Chicago,Ill.,240000
+62,The Precinct by Jeff Ruby,15341000,92,Cincinnati,Ohio,189000
+63,Harry Caray's Italian Steakhouse,15209000,64,Chicago,Ill.,279000
+64,Lambert's Cafe (Sikeston),14941000,18,Sikeston,Mo.,832000
+65,Bob Chinn's Crab House,14869222,56,Wheeling,Ill.,265522
+66,Chops Lobster Bar,14715614,120,Atlanta,Ga.,109866
+67,The Lobster House,14677000,55,Cape May,N.J.,298000
+68,Bryant Park Grill & Cafe,14600000,60,New York,N.Y.,250000
+69,Delmonico Steakhouse,14538000,126,Las Vegas,Nev.,112453
+70,Sparks Steak House,14015000,105,New York,N.Y.,176327
+71,Paradise Cove Beach Cafe,13987695,54,Malibu,Calif.,259031
+72,Prime & Provisions,13900000,125,Chicago,Ill.,111200
+73,Tavern on the Green,13770000,87,New York,N.Y.,236124
+74,Bar Siena,13750000,68,Chicago,Ill.,202200
+75,The Hampton Social (Nashville),13430746,42,Nashville,Tenn.,319779
+76,Whiskey Joe's Tampa,13143520,34,Tampa,Fla.,267988
+77,Beauty & Essex (New York City),13091000,97,New York,N.Y.,175648
+78,Grand Central Oyster Bar,13043000,71,New York,N.Y.,264328
+79,Casa Tua Miami,13009000,55,Miami Beach,Fla.,235000
+80,Beauty & Essex (Las Vegas),12717000,124,Las Vegas,Nev.,124321
+81,Girl & the Goat,12507000,95,Chicago,Ill.,175623
+82,China Live,12504518,54,San Francisco,Calif.,87882
+83,Keens Steakhouse,12503000,105,New York,N.Y.,143698
+84,On Swann,12483000,76,Tampa,Fla.,164250
+85,Pancake Pantry,12350000,16,Gatlinburg,Tenn.,745000
+86,Bistro 31,12315724,85,Dallas,Texas,123854
+87,Atlanta Fish Market,12193856,56,Atlanta,Ga.,193439
+88,Original Joe's North Beach,11976922,53,San Francisco,Calif.,215492
+89,Mickey Mantle's Steakhouse,11894000,104,Oklahoma City,Okla.,110000
+90,Gladstones,11784000,50,Pacific Palisades,Calif.,240000
+91,Hugo's Frog Bar & Fish House,11704132,79,Chicago,Ill.,146319
+92,The Spot,11695800,20,Galveston,Texas,585000
+93,Steak 954,11545321,108,Fort Lauderdale,Fla.,134741
+94,Siena Tavern,11500000,65,Chicago,Ill.,176900
+95,El Vez Philadelphia,11472765,49,Philadelphia,Pa.,257639
+96,George's at the Cove,11218000,93,La Jolla,Calif.,221671
+97,Stubborn Seed,11158000,124,Miami Beach,Fla.,89986
+98,Toulouse Cafe & Bar Houston,11074759,78,Houston,Texas,113609
+99,L'Atelier de Joël Robuchon Miami,11063000,195,Miami,Fla.,54215
+100,Mélisse,11050000,425,Santa Monica,Calif.,26000

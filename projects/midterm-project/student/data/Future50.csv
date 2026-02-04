@@ -1,0 +1,51 @@
+Rank,Restaurant,Location,Sales,YOY_Sales,Units,YOY_Units,Unit_Volume,Franchising
+1,Duck Donuts,"Mechanicsburg, Pa.",50,28.50%,106,10.40%,495,Yes
+2,Just Salad,"New York, N.Y.",50,28.10%,48,14.30%,1105,No
+3,Eggs Up Grill,"Spartanburg, S.C.",49,71.20%,53,15.20%,992,Yes
+4,Bubbakoo's Burritos,"Wall, N.J.",48,58.50%,63,46.50%,900,Yes
+5,Pokeworks,"Irvine, Calif.",47,32.50%,65,14.00%,775,Yes
+6,Sharetea,"Wilmington, Del.",47,53.40%,135,36.40%,400,Yes
+7,Kolache Factory,"Katy, Texas",46,29.10%,59,3.50%,788,Yes
+8,Hawkers Asian Street Fare,"Orlando, Fla.",44,93.00%,12,20.00%,4035,No
+9,Pita Mediterranean Street Food,"Fairburn, Ga.",43,23.50%,36,2.90%,1200,Yes
+10,Urbane Cafe,"Ventura, Calif.",42,25.70%,22,4.80%,1955,No
+11,Clean Eatz,"Wilmington, N.C.",42,30.30%,60,17.60%,750,Yes
+12,7 Leaves Cafe,"Garden Grove, Calif.",40,34.60%,37,15.60%,1150,Yes
+13,Original ChopShop,"Plano, Texas",36,46.90%,16,6.70%,2387,No
+14,Rusty Taco,"Atlanta, Ga.",36,29.90%,37,8.80%,1002,Yes
+15,Romeo's Pizza,"Medina, Ohio",35,23.90%,50,16.30%,760,Yes
+16,The Flying Biscuit Cafe ,"Atlanta, Ga.",35,32.10%,22,4.80%,1610,Yes
+17,Beans & Brews Coffee House,"Sandy, Utah",34,27.20%,65,10.20%,550,Yes
+18,Dos Toros Taqueria,"Rye Brook, N.Y.",34,35.50%,25,8.70%,1400,No
+19,Tacos 4 Life,"Conway, Arkansas",33,33.50%,19,11.80%,1860,Yes
+20,Tocaya Modern Mexican,"West Hollywood, Calif.",33,65.20%,19,18.80%,1870,No
+21,Mo'Bettahs,"Salt Lake City, Utah",33,30.00%,28,12.00%,1225,No
+22,Huckleberry's,"San Luis Obispo, Calif.",31,121.40%,21,40.00%,1720,Yes
+23,Buddy's Pizza,"Farmington Hills, Mich.",31,25.40%,21,5.00%,3800,No
+24,Chowking,"City of Industry, Calif.",30,33.10%,16,6.70%,1948,No
+25,Hat Creek Burger Co.,"Austin, Texas",30,23.90%,26,4.00%,1180,No
+26,Poke Bros.,"Columbus, Ohio",30,37.60%,47,17.50%,690,No
+27,Ziggi's Coffee,"Longmont, Colo.",30,89.20%,45,66.70%,830,Yes
+28,Breakfast Republic,"San Diego, Calif.",29,52.10%,12,20.00%,2600,No
+29,Jeremiah's Italian Ice,"Orlando, Fla.",28,102.60%,60,81.80%,647,Yes
+30,Barro's Pizza,"Chicago, Illinois",28,11.60%,48,2.10%,590,No
+31,Everbowl,"Carlsbad, Calif.",28,56.70%,45,50.00%,745,Yes
+32,Salt & Straw,"Portland, Ore.",27,25.70%,25,8.70%,1140,No
+33,Blanco Tacos + Tequila,"Phoenix, Ariz.",27,45.70%,10,25.00%,2980,No
+34,Fat Shack,"Fort Collins, Colo.",27,60.50%,26,18.20%,1115,Yes
+35,Brick & Spoon,"Lafayette, La.",26,45.00%,12,9.10%,2265,Yes
+36,Salad Station,"Hammond, La.",26,27.20%,26,13.00%,1050,Yes
+37,Slapfish,"Fountain Valley, Calif.",25,30.00%,22,4.80%,110,Yes
+38,Scramblers,"Toledo, Ohio",25,26.40%,27,3.80%,950,Yes
+39,Guthrie's Chicken,"Auburn, Ala.",25,24.80%,40,8.10%,665,Yes
+40,Surcheros,"Douglas, Ga.",25,26.70%,22,10.00%,1180,Yes
+41,Rush Bowls,"Gunbarrel, Colo.",24,40.50%,33,6.50%,760,Yes
+42,Huey Magoo's,"Hollywood, Fla.",22,23.10%,20,5.30%,1150,Yes
+43,Viva Chicken,"Pineville, N.C.",22,26.70%,14,7.70%,1650,No
+44,The Stand Restaurants,"Encino, Calif.",21,24.30%,11,10.00%,2000,No
+45,Plant Power Fast Food,"San Diego, Calif.",21,49.30%,10,42.90%,2460,No
+46,Starbird Chicken,"Sunnyvale, Calif.",21,78.30%,10,25.00%,3600,Yes
+47,GFG Cafe Cuisine,"Rutherford, N.J.",20,111.60%,30,66.70%,840,Yes
+48,Mango Mango Desserts,"New York, N.Y.",19,35.00%,26,23.80%,820,Yes
+49,Common Bond Cafe,"Houston, Texas",19,35.30%,10,11.10%,1980,No
+50,Great Greek Mediterranean Grill,"West Palm Beach, Fla.",19,61.20%,19,11.80%,1040,Yes

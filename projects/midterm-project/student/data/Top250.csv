@@ -1,0 +1,251 @@
+Rank,Restaurant,Sales,YOY_Sales,Units,YOY_Units,Segment,Category,Segment_Category
+1,McDonald's,40517,0.30%,13682,-1.20%,Quick Service,Burger,Quick Service & Burger
+2,Starbucks,18485,-13.50%,15337,1.90%,Quick Service,Coffee Cafe,Quick Service & Coffee Cafe
+3,Chick-fil-A,13745,13.00%,2659,6.70%,Quick Service,Chicken,Quick Service & Chicken
+4,Taco Bell,11294,0.00%,6799,0.50%,Quick Service,Mexican,Quick Service & Mexican
+5,Wendy's,10231,4.80%,5881,0.50%,Quick Service,Burger,Quick Service & Burger
+6,Burger King,9657,-5.40%,7081,-3.60%,Quick Service,Burger,Quick Service & Burger
+7,Dunkin',8762,-5.10%,9083,-5.70%,Quick Service,Coffee Cafe,Quick Service & Coffee Cafe
+8,Subway,8318,-18.50%,22005,-7.50%,Quick Service,Sandwich,Quick Service & Sandwich
+9,Domino's,8287,17.60%,6355,3.70%,Quick Service,Pizza,Quick Service & Pizza
+10,Chipotle Mexican Grill,5921,6.50%,2724,5.60%,Fast Casual,Mexican,Fast Casual & Mexican
+11,Sonic Drive-In,5680,21.20%,3526,0.00%,Quick Service,Burger,Quick Service & Burger
+12,Pizza Hut,5436,-2.20%,6561,-10.20%,Quick Service,Pizza,Quick Service & Pizza
+13,Panera Bread,5350,-10.50%,2106,-2.30%,Fast Casual,Sandwich,Fast Casual & Sandwich
+14,KFC,4742,4.30%,3943,-3.00%,Quick Service,Chicken,Quick Service & Chicken
+15,Popeyes Louisiana Kitchen,4587,20.30%,2608,5.30%,Quick Service,Chicken,Quick Service & Chicken
+16,Arby's,4215,8.50%,3369,0.30%,Quick Service,Sandwich,Quick Service & Sandwich
+17,Dairy Queen,3978,5.80%,4361,-0.50%,Quick Service,Frozen Desserts,Quick Service & Frozen Desserts
+18,Little Caesars,3947,3.50%,4150,-1.50%,Quick Service,Pizza,Quick Service & Pizza
+19,Panda Express,3817,-3.30%,2263,2.40%,Fast Casual,Asian,Fast Casual & Asian
+20,Jack in the Box,3673,4.80%,2241,-0.10%,Quick Service,Burger,Quick Service & Burger
+21,Olive Garden,3407,-20.50%,868,0.20%,Casual Dining,Italian,Casual Dining & Italian
+22,Papa John's,3191,15.90%,3134,-0.30%,Quick Service,Pizza,Quick Service & Pizza
+23,Buffalo Wild Wings,3114,-15.10%,1204,-0.20%,Casual Dining,Sports Bar,Casual Dining & Sports Bar
+24,Applebee's,3101,-24.10%,1600,-3.90%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+25,Chili's Grill & Bar,3082,-13.50%,1233,-0.70%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+26,Whataburger,2698,5.60%,844,1.70%,Quick Service,Burger,Quick Service & Burger
+27,Texas Roadhouse,2694,-13.40%,572,3.40%,Casual Dining,Steak,Casual Dining & Steak
+28,IHOP,2138,-34.60%,1670,-2.30%,Midscale,Family Style,Midscale & Family Style
+29,Outback Steakhouse,2087,-20.80%,706,-2.50%,Casual Dining,Steak,Casual Dining & Steak
+30,Zaxby's,1996,5.00%,909,0.60%,Fast Casual,Chicken,Fast Casual & Chicken
+31,Culver's,1986,10.60%,782,6.80%,Quick Service,Burger,Quick Service & Burger
+32,Jimmy John's Gourmet Sandwiches,1925,-8.50%,2705,-2.90%,Fast Casual,Sandwich,Fast Casual & Sandwich
+33,Wingstop,1823,31.00%,1359,10.40%,Fast Casual,Chicken,Fast Casual & Chicken
+34,Hardee's,1820,-9.50%,1755,-2.90%,Quick Service,Burger,Quick Service & Burger
+35,Cracker Barrel,1770,-29.70%,663,0.50%,Midscale,Family Style,Midscale & Family Style
+36,Red Lobster,1755,-29.50%,675,-0.60%,Casual Dining,Seafood,Casual Dining & Seafood
+37,Denny's,1744,-35.20%,1534,-2.00%,Midscale,Family Style,Midscale & Family Style
+38,Raising Cane's Chicken Fingers,1723,17.50%,509,11.40%,Fast Casual,Chicken,Fast Casual & Chicken
+39,Five Guys,1711,3.00%,1382,1.00%,Fast Casual,Burger,Fast Casual & Burger
+40,Jersey Mike's Subs,1595,19.60%,1854,11.40%,Fast Casual,Sandwich,Fast Casual & Sandwich
+41,LongHorn Steakhouse,1587,-15.00%,538,1.50%,Casual Dining,Steak,Casual Dining & Steak
+42,The Cheesecake Factory,1585,-27.30%,206,0.00%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+43,Bojangles,1374,3.20%,758,1.60%,Quick Service,Chicken,Quick Service & Chicken
+44,Carl's Jr.,1281,-8.50%,1063,-2.70%,Quick Service,Burger,Quick Service & Burger
+45,In-N-Out Burger,1073,9.50%,361,2.80%,Quick Service,Burger,Quick Service & Burger
+46,Red Robin,1050,-32.40%,546,-1.80%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+47,El Pollo Loco,880,-1.70%,479,-0.60%,Quick Service,Chicken,Quick Service & Chicken
+48,Del Taco,852,0.20%,596,0.00%,Quick Service,Mexican,Quick Service & Mexican
+49,Firehouse Subs,840,0.90%,1153,-0.20%,Fast Casual,Sandwich,Fast Casual & Sandwich
+50,Qdoba Mexican Eats,818,-9.20%,741,1.50%,Fast Casual,Mexican,Fast Casual & Mexican
+51,Papa Murphy's Pizza,797,6.50%,1293,-2.70%,Quick Service,Pizza,Quick Service & Pizza
+52,BJ's Restaurant & Brewhouse,779,-33.00%,210,1.00%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+53,Steak 'n Shake,765,-20.50%,518,-10.20%,Quick Service,Burger,Quick Service & Burger
+54,Marco's Pizza,760,21.00%,954,4.30%,Quick Service,Pizza,Quick Service & Pizza
+55,Church's Chicken,742,-14.80%,920,-9.80%,Quick Service,Chicken,Quick Service & Chicken
+56,Waffle House,736,-36.00%,1960,0.10%,Midscale,Family Style,Midscale & Family Style
+57,Krispy Kreme,733,4.50%,365,1.40%,Quick Service,Other Beverage,Quick Service & Other Beverage
+58,Tropical Smoothie Cafe,690,19.70%,914,9.60%,Quick Service,Other Beverage,Quick Service & Other Beverage
+59,TGI Fridays,672,-38.00%,340,-11.70%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+60,Golden Corral,663,-62.00%,440,-8.90%,Quick Service,All Other,Quick Service & All Other
+61,Freddy's Frozen Custard & Steakburgers,643,20.00%,388,5.40%,Fast Casual,Burger,Fast Casual & Burger
+62,McAlister's Deli,625,-13.00%,481,2.60%,Fast Casual,Sandwich,Fast Casual & Sandwich
+63,Baskin-Robbins,620,0.80%,2419,-4.20%,Quick Service,Frozen Desserts,Quick Service & Frozen Desserts
+64,Hooters,605,-29.50%,340,-0.30%,Casual Dining,Sports Bar,Casual Dining & Sports Bar
+65,P.F. Chang's,601,-34.50%,214,-3.20%,Casual Dining,Asian,Casual Dining & Asian
+66,Dutch Bros Coffee,584,3.00%,410,11.10%,Quick Service,Coffee Cafe,Quick Service & Coffee Cafe
+67,White Castle,583,0.50%,361,-2.70%,Quick Service,Burger,Quick Service & Burger
+68,Moe's Southwest Grill,561,-23.30%,681,-5.70%,Fast Casual,Mexican,Fast Casual & Mexican
+69,Checkers Drive-In Restaurants,546,0.50%,570,-2.70%,Quick Service,Burger,Quick Service & Burger
+70,Captain D's Seafood Kitchen,544,-3.20%,534,-1.10%,Quick Service,All Other,Quick Service & All Other
+71,Shake Shack,535,-14.00%,205,10.80%,Fast Casual,Burger,Fast Casual & Burger
+72,Carrabba's Italian Grill,529,-19.00%,220,-2.20%,Casual Dining,Italian,Casual Dining & Italian
+73,Tim Hortons,511,-22.20%,630,-4.00%,Quick Service,Coffee Cafe,Quick Service & Coffee Cafe
+74,Cheddar's Scratch Kitchen,493,-32.00%,171,-2.30%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+75,Smoothie King,483,4.70%,1007,3.60%,Quick Service,Other Beverage,Quick Service & Other Beverage
+76,Noodles & Company,465,-13.00%,454,-0.70%,Fast Casual,Asian,Fast Casual & Asian
+77,The Habit Burger Grill,465,-5.30%,278,5.30%,Fast Casual,Burger,Fast Casual & Burger
+78,MOD Pizza,461,-4.70%,490,4.90%,Fast Casual,Pizza,Fast Casual & Pizza
+79,Jack's,460,3.30%,192,9.10%,Quick Service,Burger,Quick Service & Burger
+80,Portillo's,455,-7.30%,64,3.20%,Fast Casual,Sandwich,Fast Casual & Sandwich
+81,Hungry Howie's Pizza,442,14.50%,537,0.00%,Quick Service,Pizza,Quick Service & Pizza
+82,Bob Evans,440,-42.50%,451,-5.10%,Midscale,Family Style,Midscale & Family Style
+83,Round Table Pizza,439,2.80%,414,-3.30%,Quick Service,Pizza,Quick Service & Pizza
+84,Charleys Philly Steaks,432,-5.00%,560,2.00%,Quick Service,Sandwich,Quick Service & Sandwich
+85,Ruth's Chris Steak House,429,-39.00%,128,-5.20%,Fine Dining,Steak,Fine Dining & Steak
+86,Yard House,427,-30.00%,81,2.50%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+87,Einstein Bros. Bagels,426,-21.50%,707,-3.00%,Fast Casual,Sandwich,Fast Casual & Sandwich
+88,First Watch,424,-24.00%,410,11.40%,Midscale,Family Style,Midscale & Family Style
+89,California Pizza Kitchen,419,-35.00%,173,-13.10%,Casual Dining,Italian,Casual Dining & Italian
+90,Jamba,418,-15.70%,791,1.50%,Quick Service,Other Beverage,Quick Service & Other Beverage
+91,Jason's Deli,405,-37.40%,252,-11.00%,Fast Casual,Sandwich,Fast Casual & Sandwich
+92,Bonefish Grill,404,-31.10%,187,-5.10%,Casual Dining,Seafood,Casual Dining & Seafood
+93,Taco John's,388,4.70%,389,0.50%,Quick Service,Mexican,Quick Service & Mexican
+94,Boston Market,381,-24.10%,342,-13.00%,Fast Casual,Chicken,Fast Casual & Chicken
+95,Pollo Tropical,368,-13.50%,167,-4.00%,Fast Casual,Chicken,Fast Casual & Chicken
+96,Auntie Anne's,350,-37.90%,1197,-1.20%,Quick Service,Other Beverage,Quick Service & Other Beverage
+97,Cold Stone Creamery,348,-6.70%,865,-3.70%,Quick Service,Frozen Desserts,Quick Service & Frozen Desserts
+98,Jet's Pizza,343,3.50%,383,0.00%,Quick Service,Pizza,Quick Service & Pizza
+99,Maggiano's Little Italy,338,-19.10%,53,0.00%,Casual Dining,Italian,Casual Dining & Italian
+100,The Capital Grille,337,-27.00%,60,3.40%,Fast Casual,Steak,Fast Casual & Steak
+101,Miller's Ale House,327,-32.00%,93,2.20%,Casual Dining,Sports Bar,Casual Dining & Sports Bar
+102,Ruby Tuesday,325,-51.50%,220,-51.20%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+103,Potbelly Sandwich Shop,322,-28.20%,446,-5.90%,Quick Service,Sandwich,Quick Service & Sandwich
+104,Chuy's,321,-24.70%,92,-8.00%,Casual Dining,Mexican,Casual Dining & Mexican
+105,Perkins Restaurant & Bakery,319,-42.00%,283,-11.60%,Midscale,Family Style,Midscale & Family Style
+106,Long John Silver's,319,-17.00%,701,-6.00%,Quick Service,All Other,Quick Service & All Other
+107,Mellow Mushroom,307,-35.50%,177,-7.30%,Casual Dining,Italian,Casual Dining & Italian
+108,O'Charley's,307,-28.50%,161,-8.50%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+109,Rally's Hamburgers,296,2.50%,310,2.00%,Quick Service,Burger,Quick Service & Burger
+110,Krystal Company,294,-14.50%,300,-5.70%,Quick Service,Burger,Quick Service & Burger
+111,Torchy's Tacos,291,7.00%,83,15.30%,Fast Casual,Mexican,Fast Casual & Mexican
+112,Blaze Pizza,288,-21.50%,310,-1.00%,Fast Casual,Pizza,Fast Casual & Pizza
+113,Cooper's Hawk Winery & Restaurants,286,-15.50%,48,17.10%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+114,Zoes Kitchen,279,-17.00%,237,-7.40%,Fast Casual,Sandwich,Fast Casual & Sandwich
+115,Cafe Rio mexican Grill,273,2.00%,135,7.10%,Fast Casual,Mexican,Fast Casual & Mexican
+116,Saltgrass Steak House,272,-32.00%,88,0.00%,Casual Dining,Steak,Casual Dining & Steak
+117,Schlotzsky's,271,-15.60%,333,-5.10%,Fast Casual,Sandwich,Fast Casual & Sandwich
+118,Peet's Coffee,269,-18.50%,367,-6.10%,Quick Service,Coffee Cafe,Quick Service & Coffee Cafe
+119,Dickey's Barbecue Pit,266,-24.00%,473,-6.30%,Fast Casual,All Other,Fast Casual & All Other
+120,The Honey Baked Ham Co.,264,-13.00%,411,-0.70%,Quick Service,Sandwich,Quick Service & Sandwich
+121,Twin Peaks,259,-22.70%,78,-7.10%,Casual Dining,Sports Bar,Casual Dining & Sports Bar
+122,Logan's Roadhouse,256,-48.00%,138,-32.40%,Casual Dining,Steak,Casual Dining & Steak
+123,Wienerschnitzel,255,-9.00%,328,-0.30%,Quick Service,Sandwich,Quick Service & Sandwich
+124,Cicis,255,-35.50%,318,-19.50%,Quick Service,Pizza,Quick Service & Pizza
+125,Famous Dave's,254,-27.00%,122,-4.70%,Casual Dining,All Other,Casual Dining & All Other
+126,Braum's Ice Cream & Dairy Stores,252,-6.00%,290,0.70%,Quick Service,Frozen Desserts,Quick Service & Frozen Desserts
+127,Taco Cabana,250,-19.70%,149,-13.40%,Fast Casual,Mexican,Fast Casual & Mexican
+128,Godfather's Pizza,249,3.50%,570,0.20%,Quick Service,Pizza,Quick Service & Pizza
+129,Black Bear Diner,246,-27.00%,143,3.60%,Midscale,Family Style,Midscale & Family Style
+130,Caribou Coffee,242,-17.00%,385,-4.50%,Quick Service,Coffee Cafe,Quick Service & Coffee Cafe
+131,Fazoli's,240,0.80%,213,-0.90%,Fast Casual,Sandwich,Fast Casual & Sandwich
+132,Golden Chick,230,17.70%,198,7.60%,Quick Service,Chicken,Quick Service & Chicken
+133,On The Border Mexican Grill & Cantina,221,-32.80%,122,-9.60%,Casual Dining,Mexican,Casual Dining & Mexican
+134,Sarku Japan,219,-22.00%,215,-4.00%,Quick Service,Asian,Quick Service & Asian
+135,A&W All-American Food,216,-5.00%,553,-3.80%,Quick Service,Burger,Quick Service & Burger
+136,Ninety Nine Restaurants,215,-32.10%,103,-4.60%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+137,Penn Station East Coast Subs,212,5.20%,311,0.60%,Fast Casual,Sandwich,Fast Casual & Sandwich
+138,Fleming's Prime Steakhouse & Wine Bar,210,-31.80%,63,-7.40%,Fine Dining,Steak,Fine Dining & Steak
+139,Big Boy/Frisch's Big Boy,208,-38.50%,182,-6.20%,Midscale,Family Style,Midscale & Family Style
+140,Mountain Mike's Pizza,206,13.30%,228,6.00%,Quick Service,Pizza,Quick Service & Pizza
+141,Donatos Pizza,204,14.30%,168,5.00%,Fast Casual,Pizza,Fast Casual & Pizza
+142,Pei Wei,200,-25.50%,130,-13.30%,Fast Casual,Asian,Fast Casual & Asian
+143,Au Bon Pain,192,-31.50%,143,5.90%,Fast Casual,Sandwich,Fast Casual & Sandwich
+144,Pret A Manger,191,-24.50%,77,-18.90%,Fast Casual,Sandwich,Fast Casual & Sandwich
+145,Sweetgreen,189,2.30%,119,16.70%,Fast Casual,All Other,Fast Casual & All Other
+146,Pizza Ranch,189,-30.10%,210,-0.90%,Quick Service,Pizza,Quick Service & Pizza
+147,Newk's Eatery,189,-17.00%,111,-8.30%,Fast Casual,Sandwich,Fast Casual & Sandwich
+148,Lazy Dog Restaurant & Bar,188,-12.10%,39,8.30%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+149,Smashburger,187,-26.50%,219,-20.90%,Fast Casual,Burger,Fast Casual & Burger
+150,Farmer Boys,187,3.90%,98,5.40%,Fast Casual,Burger,Fast Casual & Burger
+151,Uncle Julio's,185,-23.00%,37,2.80%,Casual Dining,Mexican,Casual Dining & Mexican
+152,Texas de Brazil Churrascaria,184,-46.50%,51,0.00%,Casual Dining,Steak,Casual Dining & Steak
+153,Sbarro,182,-18.30%,300,-3.20%,Quick Service,Pizza,Quick Service & Pizza
+154,Rubio's,178,-23.20%,158,-19.80%,Fast Casual,Mexican,Fast Casual & Mexican
+155,Chuck E. Cheese's,177,-53.50%,491,-8.60%,Quick Service,Pizza,Quick Service & Pizza
+156,Benihana,177,-48.00%,66,-7.00%,Casual Dining,Asian,Casual Dining & Asian
+157,Giordano's,177,3.50%,68,0.00%,Casual Dining,Italian,Casual Dining & Italian
+158,Chicken Salad Chick,175,14.20%,176,22.20%,Fast Casual,Chicken,Fast Casual & Chicken
+159,Fogo de Chao,173,-45.00%,43,0.00%,Casual Dining,Steak,Casual Dining & Steak
+160,Dave & Buster's,172,-69.50%,137,2.20%,Casual Dining,Sports Bar,Casual Dining & Sports Bar
+161,Seasons 52,170,-33.00%,44,0.00%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+162,Old Chicago Pizza & Taproom,168,-39.00%,80,-26.60%,Casual Dining,Italian,Casual Dining & Italian
+163,Fuzzy's Taco Shop,168,-15.00%,140,-4.10%,Fast Casual,Mexican,Fast Casual & Mexican
+164,Village Inn,165,-49.00%,137,-25.50%,Midscale,Family Style,Midscale & Family Style
+165,Bahama Breeze Island Grille,164,-35.00%,42,-2.30%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+166,Huddle House,162,-32.50%,328,-1.50%,Midscale,Family Style,Midscale & Family Style
+167,LaRosa's Pizzeria,162,-1.90%,64,-3.00%,Casual Dining,Italian,Casual Dining & Italian
+168,Which Wich,157,-16.00%,327,-8.10%,Fast Casual,Sandwich,Fast Casual & Sandwich
+169,Firebirds Wood Fired Grill,155,-19.40%,52,2.00%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+170,True Food Kitchen,155,-18.50%,35,9.40%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+171,Corner Bakery Cafe,154,-56.90%,174,-4.40%,Fast Casual,Sandwich,Fast Casual & Sandwich
+172,Walk-On's Sports Bistreaux,152,13.30%,45,36.40%,Casual Dining,Sports Bar,Casual Dining & Sports Bar
+173,Uno Pizzeria & Grill,151,-28.50%,86,-9.50%,Casual Dining,Italian,Casual Dining & Italian
+174,Lee's Famous Recipe Chicken,150,-7.00%,128,-0.80%,Quick Service,Chicken,Quick Service & Chicken
+175,Sonny's BBQ,149,-25.50%,98,-2.00%,Casual Dining,All Other,Casual Dining & All Other
+176,Bill Miller Bar-B-Q,149,-13.00%,76,1.30%,Fast Casual,All Other,Fast Casual & All Other
+177,Pollo Campero,148,3.40%,79,1.30%,Fast Casual,Chicken,Fast Casual & Chicken
+178,Wayback Burgers,146,-8.00%,147,0.00%,Fast Casual,Burger,Fast Casual & Burger
+179,Ono Hawaiian BBQ,146,20.70%,96,7.90%,Fast Casual,All Other,Fast Casual & All Other
+180,J. Alexander's,145,-25.70%,33,-2.90%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+181,Mission BBQ,144,6.00%,98,8.90%,Fast Casual,All Other,Fast Casual & All Other
+182,Pappadeaux Seafood Kitchen,144,-46.50%,39,-2.50%,Casual Dining,Seafood,Casual Dining & Seafood
+183,Bar Louie,143,-52.00%,75,-41.40%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+184,Cinnabon,143,-29.20%,942,0.40%,Quick Service,Other Beverage,Quick Service & Other Beverage
+185,Taco Bueno,142,-19.00%,130,-10.30%,Fast Casual,Mexican,Fast Casual & Mexican
+186,Cook-Out Restaurant,141,10.40%,295,9.30%,Quick Service,Burger,Quick Service & Burger
+187,Paris Baguette,141,-8.50%,88,6.00%,Fast Casual,Sandwich,Fast Casual & Sandwich
+188,L&L Hawaiian Barbecue,141,-0.10%,207,3.50%,Quick Service,Asian,Quick Service & Asian
+189,Jollibee,140,10.90%,46,15.00%,Quick Service,Chicken,Quick Service & Chicken
+190,WaBa Grill,136,2.60%,189,-1.00%,Fast Casual,Asian,Fast Casual & Asian
+191,Bubba's 33,134,-7.50%,31,10.70%,Casual Dining,Sports Bar,Casual Dining & Sports Bar
+192,Great Harvest Bakery Cafe,134,-17.50%,172,-1.10%,Fast Casual,Sandwich,Fast Casual & Sandwich
+193,Morton's The Steakhouse,132,-50.50%,59,-6.30%,Fine Dining,Steak,Fine Dining & Steak
+194,Tijuana Flats,131,-14.50%,128,-4.50%,Fast Casual,Mexican,Fast Casual & Mexican
+195,The Original Pancake House,128,-31.00%,143,0.00%,Midscale,Family Style,Midscale & Family Style
+196,54th Street Restaurant & Drafthouse,128,-2.60%,32,3.20%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+197,Menchie's Frozen Yogurt,128,-14.00%,408,-4.40%,Quick Service,Frozen Desserts,Quick Service & Frozen Desserts
+198,Friendly's,126,-40.00%,130,-18.80%,Midscale,Family Style,Midscale & Family Style
+199,BurgerFi,126,-9.20%,112,0.90%,Fast Casual,Burger,Fast Casual & Burger
+200,Mastro's Restaurants,126,-48.20%,18,0.00%,Fine Dining,Steak,Fine Dining & Steak
+201,Smokey Bones Bar & Fire Grill,125,-29.00%,64,0.00%,Casual Dining,All Other,Casual Dining & All Other
+202,Topgolf,125,-42.00%,60,11.10%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+203,Cava,124,4.50%,105,16.70%,Fast Casual,All Other,Fast Casual & All Other
+204,Roosters,123,-24.50%,42,0.00%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+205,Bruegger's Bagels,122,-16.50%,199,-4.30%,Fast Casual,Sandwich,Fast Casual & Sandwich
+206,Buca di Beppo,121,-36.00%,74,-2.60%,Casual Dining,Italian,Casual Dining & Italian
+207,Slim Chickens,121,7.00%,90,9.80%,Fast Casual,Chicken,Fast Casual & Chicken
+208,Daylight Donuts,120,-11.70%,435,0.00%,Quick Service,Other Beverage,Quick Service & Other Beverage
+209,Beef 'O' Brady's,117,-36.50%,131,-12.70%,Casual Dining,Sports Bar,Casual Dining & Sports Bar
+210,Biggby Coffee,117,-8.50%,240,0.40%,Quick Service,Coffee Cafe,Quick Service & Coffee Cafe
+211,La Madeleine,117,-33.20%,86,-4.40%,Fast Casual,Sandwich,Fast Casual & Sandwich
+212,The Coffee Bean & Tea Leaf,115,-15.00%,275,-4.50%,Quick Service,Coffee Cafe,Quick Service & Coffee Cafe
+213,Brio Tuscan Grille,115,-46.00%,32,-41.80%,Casual Dining,Italian,Casual Dining & Italian
+214,Luby's,115,-40.90%,61,-22.80%,Quick Service,All Other,Quick Service & All Other
+215,PDQ,115,-12.00%,56,-6.70%,Fast Casual,Chicken,Fast Casual & Chicken
+216,Islands Fine Burgers & Drinks,115,-29.00%,48,-11.10%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+217,Ledo Pizza,114,0.90%,111,3.70%,Quick Service,Pizza,Quick Service & Pizza
+218,Metro Diner,114,-33.50%,58,-15.90%,Midscale,Family Style,Midscale & Family Style
+219,Duffy's Sports Grill,114,-21.50%,34,0.00%,Casual Dining,Sports Bar,Casual Dining & Sports Bar
+220,Rosati's Pizza,114,3.00%,150,3.40%,Quick Service,Pizza,Quick Service & Pizza
+221,Runza,113,5.10%,86,0.00%,Quick Service,Sandwich,Quick Service & Sandwich
+222,Mimi's Cafe,113,-42.00%,65,-15.60%,Casual Dining,Varied Menu,Casual Dining & Varied Menu
+223,Costa Vida Fresh Mexican Grill,112,-14.50%,97,2.10%,Fast Casual,Mexican,Fast Casual & Mexican
+224,Wetzel's Pretzels,112,-35.90%,336,-2.00%,Quick Service,Other Beverage,Quick Service & Other Beverage
+225,Andy's Frozen Custard,112,17.00%,101,11.00%,Quick Service,Frozen Desserts,Quick Service & Frozen Desserts
+226,Fuddruckers,109,-41.00%,89,-35.50%,Fast Casual,Burger,Fast Casual & Burger
+227,Pieology Pizzeria,109,-21.50%,115,-7.30%,Fast Casual,Pizza,Fast Casual & Pizza
+228,Black Angus steakhouse,108,-32.50%,38,-9.50%,Casual Dining,Steak,Casual Dining & Steak
+229,Romano's Macaroni Grill,107,-51.00%,43,-49.40%,Casual Dining,Italian,Casual Dining & Italian
+230,Lupe Tortilla,107,-16.00%,27,8.00%,Casual Dining,Mexican,Casual Dining & Mexican
+231,Scooter's Coffee,106,7.50%,315,18.40%,Quick Service,Coffee Cafe,Quick Service & Coffee Cafe
+232,City Barbeque,106,-5.00%,52,8.30%,Fast Casual,All Other,Fast Casual & All Other
+233,Shoney's,105,-38.50%,109,-13.50%,Midscale,Family Style,Midscale & Family Style
+234,Eat'n Park,105,-31.00%,59,-6.30%,Midscale,Family Style,Midscale & Family Style
+235,Eddie V's Prime Seafood,104,-28.00%,23,9.50%,Fine Dining,Seafood,Fine Dining & Seafood
+236,Anthony's Coal Fired Pizza,104,-32.00%,61,-9.00%,Casual Dining,Italian,Casual Dining & Italian
+237,NoRTH Italia,103,-8.00%,23,4.50%,Casual Dining,Italian,Casual Dining & Italian
+238,Del Frisco's Double Eagle steak House,103,-50.50%,16,0.00%,Fine Dining,Steak,Fine Dining & Steak
+239,Yogurtland,102,-15.50%,258,-3.00%,Quick Service,Frozen Desserts,Quick Service & Frozen Desserts
+240,Gyu-Kaku,102,-21.00%,56,7.70%,Casual Dining,Asian,Casual Dining & Asian
+241,Pappasito's Cantina,101,-29.50%,25,0.00%,Casual Dining,Mexican,Casual Dining & Mexican
+242,Shari's Cafe and Pies,101,-37.50%,92,0.00%,Midscale,Family Style,Midscale & Family Style
+243,Great American Cookies,101,-22.00%,377,2.40%,Quick Service,Other Beverage,Quick Service & Other Beverage
+244,Nekter Juice Bar,100,5.00%,165,3.80%,Quick Service,Other Beverage,Quick Service & Other Beverage
+245,Hurricane Grill & Wings,99,-27.00%,48,-11.10%,Casual Dining,Sports Bar,Casual Dining & Sports Bar
+246,American Deli,98,2.00%,182,2.80%,Quick Service,Sandwich,Quick Service & Sandwich
+247,Bonchon,98,-19.50%,109,6.90%,Casual Dining,Asian,Casual Dining & Asian
+248,Chopt,98,-12.40%,65,0.00%,Fast Casual,All Other,Fast Casual & All Other
+249,Chicken Express,96,-6.50%,260,2.80%,Quick Service,Chicken,Quick Service & Chicken
+250,Sizzler,96,-63.00%,100,-22.50%,Quick Service,All Other,Quick Service & All Other
