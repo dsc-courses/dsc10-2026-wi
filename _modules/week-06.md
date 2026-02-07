@@ -8,8 +8,8 @@ days:
         type: lecture
         title: Confidence Intervals, Center, and Spread
         lecturer: Peter
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=lectures/lec15/lec15-live.ipynb
+        html: resources/lectures/lec15/lec15.html
         podcast:
         readings:
   - date: 2026-2-11
