@@ -17,7 +17,7 @@ days:
         type: lecture
         title: The Central Limit Theorem
         lecturer: Peter
-        url:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=lectures/lec17/lec17-live.ipynb
         html: resources/lectures/lec17/lec17.html
         podcast:
         readings:
