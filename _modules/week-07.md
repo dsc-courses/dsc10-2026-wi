@@ -18,7 +18,7 @@ days:
         title: The Central Limit Theorem
         lecturer: Peter
         url:
-        html:
+        html: resources/lectures/lec17/lec17.html
         podcast:
         readings:
       - name: HW 4
