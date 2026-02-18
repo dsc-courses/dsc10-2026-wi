@@ -18,7 +18,7 @@ days:
       - name: LAB 5
         type: lab
         title: Variability and the Normal Distribution
-        url:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=labs/lab5/lab5.ipynb
   - date: 2026-2-25
     events:
       - name: LEC 20
