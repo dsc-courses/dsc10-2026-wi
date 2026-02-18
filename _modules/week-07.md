@@ -17,14 +17,14 @@ days:
         type: lecture
         title: The Central Limit Theorem
         lecturer: Peter
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=lectures/lec17/lec17-live.ipynb
+        html: resources/lectures/lec17/lec17.html
         podcast:
         readings:
       - name: HW 4
         type: hw
         title: Simulation, Sampling, & Bootstrapping
-        url:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=homeworks/hw4/hw4.ipynb
   - date: 2026-2-20
     events:
       - name: LEC 18
