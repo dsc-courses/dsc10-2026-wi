@@ -31,8 +31,8 @@ days:
         type: lecture
         title: Choosing Sample Sizes, Statistical Models
         lecturer: Peter
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=lectures/lec18/lec18-live.ipynb
+        html: resources/lectures/lec18/lec18.html
         podcast:
         readings:
           - name: CIT 14.4-14.5
