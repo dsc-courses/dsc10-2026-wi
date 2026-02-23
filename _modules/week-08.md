@@ -8,8 +8,8 @@ days:
         type: lecture
         title: Hypothesis Testing
         lecturer: Peter
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=lectures/lec19/lec19-live.ipynb
+        html: resources/lectures/lec19/lec19.html
         podcast:
         readings:
           - name: CIT 11.3
