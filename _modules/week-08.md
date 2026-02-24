@@ -25,8 +25,8 @@ days:
         type: lecture
         title: Hypothesis Testing and Total Variation Distance
         lecturer: Peter
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=lectures/lec20/lec20-live.ipynb
+        html: html: resources/lectures/lec20/lec20.html
         podcast:
         readings:
           - name: CIT 11.2
