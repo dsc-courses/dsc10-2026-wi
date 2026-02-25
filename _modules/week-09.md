@@ -37,7 +37,7 @@ days:
       - name: HW 6
         type: hw
         title: Hypothesis Testing and Permutation Testing
-        url:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=homeworks/hw6/hw6.ipynb
   - date: 2026-3-6
     events:
       - name: LEC 24
