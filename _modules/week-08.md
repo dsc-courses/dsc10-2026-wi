@@ -44,8 +44,8 @@ days:
         type: lecture
         title: TVD, Hypothesis Testing, and Permutation Testing
         lecturer: Peter
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=lectures/lec21/lec21-live.ipynb
+        html: resources/lectures/lec21/lec21.html
         podcast:
         readings:
           - name: CIT 12.0-12.1
