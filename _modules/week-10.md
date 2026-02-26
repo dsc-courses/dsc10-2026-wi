@@ -24,7 +24,7 @@ days:
       - name: LEC 26
         type: lecture
         title: Review
-        lecturer: Sam
+        lecturer: Peter
         url:
         html:
         podcast:

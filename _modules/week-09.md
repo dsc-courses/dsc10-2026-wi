@@ -7,7 +7,7 @@ days:
       - name: LEC 22
         type: lecture
         title: Permutation Testing
-        lecturer: Peter
+        lecturer: Sam
         url:
         html:
         podcast:
