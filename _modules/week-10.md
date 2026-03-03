@@ -18,7 +18,7 @@ days:
       - name: LAB 7
         type: lab
         title: Regression
-        url:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=labs/lab7/lab7.ipynb
   - date: 2026-3-11
     events:
       - name: LEC 26
