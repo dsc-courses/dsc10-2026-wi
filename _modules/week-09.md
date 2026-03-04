@@ -25,8 +25,8 @@ days:
         type: lecture
         title: Correlation
         lecturer: Sam
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=lectures/lec23/lec23-live.ipynb
+        html: resources/lectures/lec23/lec23.html
         podcast:
         readings:
           - name: CIT 15.0-15.2
