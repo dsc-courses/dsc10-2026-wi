@@ -19,6 +19,10 @@ days:
         type: lab
         title: Regression
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=labs/lab7/lab7.ipynb
+      - name: DISC 2
+        type: disc
+        title: Final Exam Review (during scheduled discussion time)
+        url:
   - date: 2026-3-11
     events:
       - name: LEC 26
