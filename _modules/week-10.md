@@ -8,8 +8,8 @@ days:
         type: lecture
         title: Residuals and Inference
         lecturer: Sam
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=lectures/lec25/lec25-live.ipynb
+        html: resources/lectures/lec25/lec25.html
         podcast:
         readings:
           - name: CIT 15.5-16.3
@@ -51,7 +51,7 @@ days:
         readings:
       - name: QUIZ
         type: quiz
-        title: Research Assessment 2 (+1% extra credit for completion)
+        title: Research Assessment 2 (for extra credit)
   - date: 2026-3-14
     events:
       - markdown_content: <b>Final Exam (8-11AM)</b>
