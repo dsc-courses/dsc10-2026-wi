@@ -29,8 +29,8 @@ days:
         type: lecture
         title: Review
         lecturer: Peter
-        url: resources/lectures/final_a.pdf
-        html:
+        url:
+        html: resources/lectures/final_a.pdf
         podcast:
         readings:
   - date: 2026-3-12
