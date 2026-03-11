@@ -32,6 +32,7 @@ days:
         url:
         html: resources/lectures/final_a.pdf
         A: resources/lectures/final_a_9am.pdf
+        B: resources/lectures/final_a_11am.pdf
         podcast:
         readings:
   - date: 2026-3-12
