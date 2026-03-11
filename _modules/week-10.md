@@ -8,8 +8,8 @@ days:
         type: lecture
         title: Residuals and Inference
         lecturer: Sam
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=lectures/lec25/lec25-live.ipynb
+        html: resources/lectures/lec25/lec25.html
         podcast:
         readings:
           - name: CIT 15.5-16.3
@@ -19,6 +19,10 @@ days:
         type: lab
         title: Regression
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=labs/lab7/lab7.ipynb
+      - name: DISC 2
+        type: disc
+        title: Final Exam Review (during scheduled discussion time)
+        url:
   - date: 2026-3-11
     events:
       - name: LEC 26
@@ -26,7 +30,7 @@ days:
         title: Review
         lecturer: Peter
         url:
-        html:
+        html: resources/lectures/final_a.pdf
         podcast:
         readings:
   - date: 2026-3-12
@@ -47,7 +51,7 @@ days:
         readings:
       - name: QUIZ
         type: quiz
-        title: Research Assessment 2 (+1% extra credit for completion)
+        title: Research Assessment 2 (for extra credit)
   - date: 2026-3-14
     events:
       - markdown_content: <b>Final Exam (8-11AM)</b>
@@ -57,5 +61,5 @@ days:
       - name: SUR
         type: survey
         title: SETs and End-of-Quarter Survey (due 8AM)
-        url:
+        url: https://docs.google.com/forms/d/e/1FAIpQLSeOVkakKd-qBC2Qiwtg5jYorHOumQfC1dcWlK59gwJpRQScFw/viewform?usp=dialog
 ---
