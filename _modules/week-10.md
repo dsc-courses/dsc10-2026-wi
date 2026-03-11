@@ -31,6 +31,7 @@ days:
         lecturer: Peter
         url:
         html: resources/lectures/final_a.pdf
+        A: resources/lectures/final_a_9am.pdf
         podcast:
         readings:
   - date: 2026-3-12
