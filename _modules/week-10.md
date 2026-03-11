@@ -29,7 +29,7 @@ days:
         type: lecture
         title: Review
         lecturer: Peter
-        url:
+        url: resources/lectures/final_a.pdf
         html:
         podcast:
         readings:
