@@ -47,8 +47,8 @@ days:
         type: lecture
         title: Review, Conclusion
         lecturer: Sam, Peter
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-wi&subPath=lectures/lec27/lec27-live.ipynb
+        html: resources/lectures/lec27/lec27.html
         podcast:
         readings:
       - name: QUIZ
