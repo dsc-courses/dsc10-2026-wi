@@ -17,7 +17,7 @@ nav_order: 1
 >Peter's class will be on Zoom today, Wednesday, November 26th. Please see the pinned post on [Campuswire](https://campuswire.com/c/GF283E889/feed/551) for details of how to join!-->
 
 <!--{: .success }
->Welcome to DSC 10! Make sure to read this website thoroughly and complete the items in the [Getting Started](https://dsc10.com/syllabus/#-getting-started) checklist. These are due very soon, on **Saturday, September 27th at 11:59PM**.-->
+>Welcome to DSC 10! Make sure to read this website thoroughly and complete the items in the [Getting Started](syllabus/#-getting-started) checklist. These are due very soon, on **Saturday, September 27th at 11:59PM**.-->
 
 <!--{: .warning }
 This site is **under construction**. Anything you read here is not finalized. This disclaimer will be removed when the site is ready for Fall 2025. -->

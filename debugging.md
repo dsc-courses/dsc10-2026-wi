@@ -140,7 +140,7 @@ This is usually what's called a "merge conflict", which means that DataHub wasn'
 
 <center><img src="../assets/images/commands.png" width="50%"></center>
 
-5. Finally, go back to [dsc10.com](https://dsc10.com) and click the link to the assignment you were attempting to work on. It should now load without error. If you still see an error, make a post on Ed with a screenshot of the error you see now.
+5. Finally, go back to [the course website](.) and click the link to the assignment you were attempting to work on. It should now load without error. If you still see an error, make a post on Ed with a screenshot of the error you see now.
 
 ### Why can’t I log in to DataHub?
 
